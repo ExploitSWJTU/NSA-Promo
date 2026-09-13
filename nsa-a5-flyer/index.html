@@ -234,15 +234,56 @@
         right: calc(var(--frame-inset) + var(--frame-padding));
         z-index: 6;
         display: flex;
-        align-items: center;
-        gap: 8px;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
       }
-      .brand-lockup img { width: 100px; height: 100px; object-fit: contain; opacity: .92; }
+      .brand-lockup img { width: 90px; height: 90px; object-fit: contain; opacity: .92; }
+      .front-tech-badge {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        padding: 4px 6px;
+        background: rgba(9, 11, 12, 0.75);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 2px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        width: 90px;
+        box-sizing: border-box;
+      }
+      .front-tech-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font: 700 5.8px/1 var(--mono);
+        color: rgba(247, 247, 241, 0.45);
+        letter-spacing: 0.1em;
+        padding-bottom: 2px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .front-tech-icons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3px;
+      }
+      .front-tech-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15px;
+        color: rgba(247, 247, 241, 0.4);
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 1.5px;
+      }
+      .front-tech-icon svg {
+        width: 10.5px;
+        height: 10.5px;
+      }
 
       .hero {
         position: relative;
         z-index: 3;
-        padding: 30px 26px 0;
+        padding: 22px 26px 0;
         width: 82%;
       }
       .eyebrow {
@@ -255,8 +296,16 @@
         text-transform: uppercase;
       }
       .eyebrow::before { content: ""; width: 25px; height: 1px; background: var(--acid); }
+      .hero h3 {
+        margin: 8px 0 4px;
+        font-size: 19px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+      }
       .hero h1 {
-        margin: 16px 0 10px;
+        margin: 8px 0 0;
         font-size: 58px;
         line-height: .86;
         letter-spacing: -.065em;
@@ -508,49 +557,91 @@
         color: var(--acid);
       }
 
-      /* TIER 1: TOP TEXT SECTION (Lead on left, subcopy + pill button on right) */
+      /* TIER 1: TOP SECTION (Lead text on left, 8 directions colored matrix on right) */
       .ref-tier-top {
         display: grid;
-        grid-template-columns: 1.18fr 0.82fr;
-        gap: 18px;
-        align-items: start;
-        margin-top: 2px;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 16px;
+        align-items: stretch;
+        margin-top: 3px;
       }
       .ref-top-left {
         display: flex;
         flex-direction: column;
+        justify-content: center;
       }
       .ref-top-lead {
         margin: 0;
-        font: 700 11.8px/1.38 var(--display);
-        letter-spacing: -0.025em;
+        font: 500 8.5px/1.45 var(--display);
+        letter-spacing: -0.01em;
         color: var(--ink);
         text-align: justify;
+      }
+      .ref-top-lead b {
+        font-weight: 800;
+        color: var(--acid-soft);
       }
       .ref-top-right {
         display: flex;
         flex-direction: column;
-        gap: 7px;
       }
-      .ref-top-copy {
-        margin: 0;
-        font: 400 8.2px/1.4 var(--display);
-        color: rgba(9, 11, 12, 0.75);
-        text-align: justify;
+      .ref-tech-grid-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5px 7px;
+        background: #ffffff;
+        border: 1px solid rgba(9, 11, 12, 0.12);
+        border-radius: 3px;
+        box-sizing: border-box;
       }
-      .ref-top-btn {
-        display: inline-flex;
+      .tech-grid-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font: 700 6.5px/1 var(--mono);
+        color: rgba(9, 11, 12, 0.55);
+        letter-spacing: 0.08em;
+        padding-bottom: 3px;
+        border-bottom: 1px solid rgba(9, 11, 12, 0.08);
+        margin-bottom: 3px;
+      }
+      .tech-grid-tag {
+        color: var(--acid);
+      }
+      .tech-directions-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 6px;
+        row-gap: 3px;
+      }
+      .tech-dir-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        padding: 2px 4.5px;
+        background: rgba(0, 0, 0, 0.02);
+        border-radius: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.04);
+      }
+      .tech-dir-icon {
+        display: flex;
         align-items: center;
         justify-content: center;
-        align-self: flex-start;
-        padding: 4px 10px;
-        background: #d4f884;
-        color: #090b0c;
-        border-radius: 3px;
-        font: 700 8px/1 var(--display);
-        letter-spacing: 0.02em;
-        border: 1px solid rgba(0, 0, 0, 0.08);
-        cursor: default;
+        width: 13px;
+        height: 13px;
+        color: var(--dir-color);
+        flex-shrink: 0;
+      }
+      .tech-dir-icon svg {
+        width: 11px;
+        height: 11px;
+        stroke: var(--dir-color);
+      }
+      .tech-dir-name {
+        font: 800 7.8px/1 var(--display);
+        color: var(--ink);
+        letter-spacing: 0.01em;
       }
 
       /* TIER 2: MIDDLE METRICS GRID (3 columns x 2 rows of large numbers) */
@@ -926,6 +1017,38 @@
             <div class="identity">SWJTU <span>/ NETWORK SECURITY ASSOCIATION</span></div>
             <div class="brand-lockup">
               <img src="assets/logo-remake.svg" alt="网安协会 logo" />
+              <div class="front-tech-badge" aria-label="核心技术方向">
+                <div class="front-tech-header">
+                  <span>DOMAINS</span>
+                  <span>08</span>
+                </div>
+                <div class="front-tech-icons">
+                  <span class="front-tech-icon" title="Pwn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="13" r="9"/><path d="M14.35 4.65 16.3 2.7a2.41 2.41 0 0 1 3.4 0l1.6 1.6a2.41 2.41 0 0 1 0 3.4l-1.95 1.95M22 2l-1.5 1.5"/></svg>
+                  </span>
+                  <span class="front-tech-icon" title="Mobile">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+                  </span>
+                  <span class="front-tech-icon" title="Hardware">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg>
+                  </span>
+                  <span class="front-tech-icon" title="Reverse">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17-5-5 5-5M18 17l-5-5 5-5"/></svg>
+                  </span>
+                  <span class="front-tech-icon" title="AI">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4M12 18v4"/></svg>
+                  </span>
+                  <span class="front-tech-icon" title="Web">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg>
+                  </span>
+                  <span class="front-tech-icon" title="Crypto">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                  </span>
+                  <span class="front-tech-icon" title="Misc">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10.5 10.5a2 2 0 1 1 3 1.7c-.7.5-1.5 1.1-1.5 1.8v.5M12 17h.01"/></svg>
+                  </span>
+                </div>
+              </div>
             </div>
           </header>
 
@@ -1000,7 +1123,7 @@
                 <h2>信网直属 · 极客社区</h2>
                 <p class="intro-kicker">NSA COMMUNITY / 02</p>
               </div>
-              <p>学校信网处直属组织，深度参与校园网一线运营维护，独享官方一手网络资讯。社团人数多、传统氛围绝佳：零基础阶梯培训、高频赛事演练与超活跃水群答疑。</p>
+              <p>信网处直属组织，深度参与校园网一线运维，独享官方一手网络资讯。社团人数众多、氛围绝佳：零基础阶梯培训、高频赛事演练与超活跃水群答疑。</p>
             </section>
           </div>
           <div class="intro-side">
@@ -1028,25 +1151,78 @@
             </h1>
           </header>
 
-          <!-- TIER 1: TOP TEXT SECTION (Lead on left, subcopy + pill on right) -->
+          <!-- TIER 1: TOP TEXT SECTION (Lead on left, 8 colored tracks matrix on right) -->
           <div class="ref-tier-top">
             <div class="ref-top-left">
               <p class="ref-top-lead">
-                西南交通大学最神秘的社团 —— 网络安全协会正式招新！加入协会，你能接触到web渗透,漏洞挖掘,软件app逆向破解,网络流量分析,计算机底层漏洞分析,信息安全加密隐写,AI提示词注入......从理论到实战，面面俱到。
+                西南交通大学最神秘的社团 —— <b>网络安全协会</b>正式招新！加入协会，你能接触到web渗透,漏洞挖掘,软件app逆向破解,网络流量分析,计算机底层漏洞分析,信息安全加密隐写,AI提示词注入……从理论到实战，面面俱到。
               </p>
-            </div>
-            <div class="ref-top-right">
-              <p class="ref-top-copy">
+              <p class="ref-top-sub" style="margin: 5px 0 0; font: 500 7.8px/1.4 var(--display); color: rgba(9, 11, 12, 0.7);">
                 零基础什么也不懂？没关系，我们有专业学长学姐教你手把手入门！更有计算机基础培训讲座带你渡难关！探秘网络攻防世界，筑牢信息安全城墙。
               </p>
-              <div class="ref-top-btn">Pre-register now // 招新开启</div>
+            </div>
+            <div class="ref-top-right ref-tech-grid-block">
+              <div class="tech-grid-header">
+                <span>RESEARCH DOMAINS</span>
+                <span class="tech-grid-tag">08 / TRACKS</span>
+              </div>
+              <div class="tech-directions-list">
+                <div class="tech-dir-item" style="--dir-color: #f53f3f;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="13" r="9"/><path d="M14.35 4.65 16.3 2.7a2.41 2.41 0 0 1 3.4 0l1.6 1.6a2.41 2.41 0 0 1 0 3.4l-1.95 1.95M22 2l-1.5 1.5"/></svg>
+                  </span>
+                  <span class="tech-dir-name">Pwn</span>
+                </div>
+                <div class="tech-dir-item" style="--dir-color: #f9925a;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+                  </span>
+                  <span class="tech-dir-name">Mobile</span>
+                </div>
+                <div class="tech-dir-item" style="--dir-color: #f7ba1e;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg>
+                  </span>
+                  <span class="tech-dir-name">Hardware</span>
+                </div>
+                <div class="tech-dir-item" style="--dir-color: #27c346;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17-5-5 5-5M18 17l-5-5 5-5"/></svg>
+                  </span>
+                  <span class="tech-dir-name">Reverse</span>
+                </div>
+                <div class="tech-dir-item" style="--dir-color: #14c9c9;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4M12 18v4"/></svg>
+                  </span>
+                  <span class="tech-dir-name">AI</span>
+                </div>
+                <div class="tech-dir-item" style="--dir-color: #3491fa;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg>
+                  </span>
+                  <span class="tech-dir-name">Web</span>
+                </div>
+                <div class="tech-dir-item" style="--dir-color: #722ed1;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                  </span>
+                  <span class="tech-dir-name">Crypto</span>
+                </div>
+                <div class="tech-dir-item" style="--dir-color: #86909c;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10.5 10.5a2 2 0 1 1 3 1.7c-.7.5-1.5 1.1-1.5 1.8v.5M12 17h.01"/></svg>
+                  </span>
+                  <span class="tech-dir-name">Misc</span>
+                </div>
+              </div>
             </div>
           </div>
 
           <!-- TIER 2: MIDDLE METRICS GRID (3 columns x 2 rows of large numbers) -->
           <div class="ref-tier-middle">
             <div class="ref-stat-item">
-              <div class="ref-stat-num">07+</div>
+              <div class="ref-stat-num">08</div>
               <div class="ref-stat-label">TECH TRACKS // 核心攻防方向</div>
             </div>
             <div class="ref-stat-item">
