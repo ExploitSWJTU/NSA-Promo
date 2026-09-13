@@ -463,19 +463,58 @@
         background: var(--paper);
         color: var(--ink);
         position: relative;
-        padding: 16px 20px 14px;
+        padding: 13px 20px 11px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         box-sizing: border-box;
       }
 
+      /* TOP MANIFESTO HEADER (Option A) */
+      .ref-header-manifesto {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid rgba(9, 11, 12, 0.12);
+      }
+      .ref-manifesto-meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font: 700 7px/1 var(--mono);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(9, 11, 12, 0.55);
+      }
+      .manifesto-tag {
+        color: var(--acid);
+      }
+      .manifesto-subtag {
+        font-family: var(--display);
+        color: rgba(9, 11, 12, 0.55);
+        letter-spacing: 0.04em;
+      }
+      .ref-manifesto-title {
+        margin: 1px 0 0;
+        font: 900 18.5px/1.12 var(--display);
+        letter-spacing: -0.04em;
+        color: var(--ink);
+      }
+      .ref-manifesto-title > span {
+        display: block;
+      }
+      .ref-manifesto-title .manifesto-accent {
+        color: var(--acid);
+      }
+
       /* TIER 1: TOP TEXT SECTION (Lead on left, subcopy + pill button on right) */
       .ref-tier-top {
         display: grid;
         grid-template-columns: 1.18fr 0.82fr;
-        gap: 20px;
+        gap: 18px;
         align-items: start;
+        margin-top: 2px;
       }
       .ref-top-left {
         display: flex;
@@ -892,9 +931,10 @@
 
           <div class="hero">
             <div class="eyebrow">2026 · RECRUITMENT</div>
+            <h3>西南交通大学</h3>
             <h1>
-              <span>雷霆<span class="outline">占位</span></span>
-              <span class="acid">大标题</span>
+              <span>网安<span class="outline">协会</span></span>
+              <span class="acid">期待你的加入</span>
             </h1>
           </div>
 
@@ -950,17 +990,17 @@
           <div class="copy-sections">
             <section class="copy-section">
               <div class="copy-head">
-                <h2>占位标题 01</h2>
-                <p class="intro-kicker">PLACEHOLDER / 01</p>
+                <h2>硬核赛道 · 实战赋能</h2>
+                <p class="intro-kicker">SECURITY EDGE / 01</p>
               </div>
-              <p>占位文本一：示例文字示例文字，示例文字示例文字，示例文字示例文字，示例文字示例文字</p>
+              <p>聚焦硬核攻防技术，落地实用性极强。国家级权威赛事助力综测与保研强势加分；直面全国巨大网安人才缺口，斩获一线大厂核心安全岗高薪竞争力。</p>
             </section>
             <section class="copy-section">
               <div class="copy-head">
-                <h2>占位标题 02</h2>
-                <p class="intro-kicker">PLACEHOLDER / 02</p>
+                <h2>信网直属 · 极客社区</h2>
+                <p class="intro-kicker">NSA COMMUNITY / 02</p>
               </div>
-              <p>占位文本二：示例文字示例文字，请输入文本请输入文本请输入文本请输入文本请输入文本</p>
+              <p>学校信网处直属组织，深度参与校园网一线运营维护，独享官方一手网络资讯。社团人数多、传统氛围绝佳：零基础阶梯培训、高频赛事演练与超活跃水群答疑。</p>
             </section>
           </div>
           <div class="intro-side">
@@ -976,6 +1016,18 @@
       <main class="poster poster--back" aria-label="西南交通大学网络安全协会招新宣传单 · 背面">
         <!-- Upper 2/3: Paper White Zone (Strictly Following Reference 3-Tier Layout) -->
         <section class="back-white-zone">
+          <!-- TOP MANIFESTO HEADER (Option A) -->
+          <header class="ref-header-manifesto">
+            <div class="ref-manifesto-meta">
+              <span class="manifesto-tag">01 / ABOUT NSA · 核心特征</span>
+              <span class="manifesto-subtag">SWJTU NSA // 2026 RECRUITMENT</span>
+            </div>
+            <h1 class="ref-manifesto-title">
+              <span>探索网络攻防边界，</span>
+              <span class="manifesto-accent">交大低调黑客的实战大本营。</span>
+            </h1>
+          </header>
+
           <!-- TIER 1: TOP TEXT SECTION (Lead on left, subcopy + pill on right) -->
           <div class="ref-tier-top">
             <div class="ref-top-left">
