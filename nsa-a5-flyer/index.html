@@ -6,6 +6,8 @@
     <meta name="theme-color" content="#0a0c0d" />
     <title>SWJTU NSA · 网络安全协会招新</title>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+
       :root {
         --ink: #090b0c;
         --paper: #f5f4ee;
@@ -15,7 +17,7 @@
         --electric: #a99aff;
         --line: rgba(255, 255, 255, 0.18);
         --display: "Arial Narrow", "Noto Sans SC", "Microsoft YaHei", sans-serif;
-        --mono: "DejaVu Sans Mono", "IBM Plex Mono", "SFMono-Regular", "Cascadia Code", "Noto Sans Mono", monospace;
+        --mono: "JetBrains Mono", "JetBrainsMono Nerd Font", "DejaVu Sans Mono", "IBM Plex Mono", monospace;
         --frame-inset: 14px;
         --frame-padding: 12px;
       }
@@ -498,6 +500,9 @@
       /* ==================== BACK SIDE STYLES ==================== */
       /* ==================== BACK SIDE STYLES ==================== */
       .poster--back {
+        --mono: "JetBrains Mono", "JetBrainsMono Nerd Font", monospace;
+        --display: "JetBrains Mono", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-family: var(--display);
         background: var(--paper);
         color: var(--ink);
         display: flex;
@@ -512,10 +517,11 @@
         background: var(--paper);
         color: var(--ink);
         position: relative;
-        padding: 12px 18px 10px;
+        padding: 16px 20px 14px;
         display: flex;
         flex-direction: column;
-        gap: 9px;
+        justify-content: space-between;
+        gap: 14px;
         box-sizing: border-box;
       }
 
@@ -524,14 +530,14 @@
         display: flex;
         flex-direction: column;
         gap: 3px;
-        padding-bottom: 6px;
+        padding-bottom: 7px;
         border-bottom: 1px solid rgba(9, 11, 12, 0.14);
       }
       .ref-manifesto-meta {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font: 700 9px/1 var(--mono);
+        font: 700 9.5px/1 var(--mono);
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: rgba(9, 11, 12, 0.58);
@@ -540,13 +546,14 @@
         color: var(--acid);
       }
       .manifesto-subtag {
-        font-family: var(--display);
+        font: 700 9px/1 var(--mono);
         color: rgba(9, 11, 12, 0.58);
         letter-spacing: 0.04em;
       }
       .ref-manifesto-title {
         margin: 2px 0 0;
-        font: 900 20px/1.12 var(--display);
+        padding-top: 7px;
+        font: 900 20.5px/1.14 var(--display);
         letter-spacing: -0.035em;
         color: var(--ink);
       }
@@ -560,7 +567,7 @@
       /* TIER 1: TOP SECTION (Lead text on left, 8 directions colored matrix on right) */
       .ref-tier-top {
         display: grid;
-        grid-template-columns: 1.15fr 0.85fr;
+        grid-template-columns: 1.25fr 0.82fr;
         gap: 14px;
         align-items: stretch;
       }
@@ -568,26 +575,55 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 6px;
+        gap: 8px;
+        position: relative;
+        overflow: hidden;
+      }
+      .char-waterfall {
+        position: absolute;
+        inset: -14px -6px;
+        display: flex;
+        justify-content: space-between;
+        pointer-events: none;
+        user-select: none;
+        z-index: 0;
+        opacity: 0.095;
+        overflow: hidden;
+        mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.95) 22%, rgba(0, 0, 0, 0.95) 75%, transparent 100%);
+        -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.95) 22%, rgba(0, 0, 0, 0.95) 75%, transparent 100%);
+      }
+      .waterfall-col {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font: 700 8px/1 var(--mono);
+        letter-spacing: 2px;
+        color: var(--acid);
+        transform: translateY(var(--offset, 0));
+        white-space: nowrap;
       }
       .ref-top-lead {
         margin: 0;
-        font: 600 12.5px/1.5 var(--display);
+        font: 600 15px/1.48 var(--display);
         letter-spacing: -0.01em;
         color: var(--ink);
-        text-align: justify;
+        text-align: left;
         text-indent: 2em;
+        position: relative;
+        z-index: 1;
       }
       .ref-top-lead b {
         font-weight: 800;
         color: var(--acid-soft);
+        white-space: nowrap;
       }
       .ref-top-sub {
         margin: 0;
-        font: 500 11.5px/1.5 var(--display);
-        color: rgba(9, 11, 12, 0.78);
-        text-align: justify;
+        font: 500 13.2px/1.52 var(--display);
+        color: rgba(9, 11, 12, 0.82);
+        text-align: left;
         text-indent: 2em;
+        position: relative;
+        z-index: 1;
       }
       .ref-top-sub b {
         font-weight: 800;
@@ -601,9 +637,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 6px 8px;
+        padding: 8px 10px;
         background: #ffffff;
-        border: 1px solid rgba(9, 11, 12, 0.14);
+        border: 1px solid rgba(9, 11, 12, 0.15);
         border-radius: 4px;
         box-sizing: border-box;
       }
@@ -611,12 +647,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font: 700 8.5px/1 var(--mono);
+        font: 700 9px/1 var(--mono);
         color: rgba(9, 11, 12, 0.58);
         letter-spacing: 0.08em;
-        padding-bottom: 4px;
+        padding-bottom: 5px;
         border-bottom: 1px solid rgba(9, 11, 12, 0.08);
-        margin-bottom: 3px;
+        margin-bottom: 4px;
       }
       .tech-grid-tag {
         color: var(--acid);
@@ -625,13 +661,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 6px;
-        row-gap: 3.5px;
+        row-gap: 4px;
       }
       .tech-dir-item {
         display: flex;
         align-items: center;
         gap: 5px;
-        padding: 3.5px 5.5px;
+        padding: 4px 6px;
         background: rgba(0, 0, 0, 0.02);
         border-radius: 2.5px;
         border: 1px solid rgba(0, 0, 0, 0.05);
@@ -651,60 +687,34 @@
         stroke: var(--dir-color);
       }
       .tech-dir-name {
-        font: 800 10px/1 var(--display);
+        font: 700 10.5px/1 var(--mono);
         color: var(--ink);
-        letter-spacing: 0.01em;
+        letter-spacing: 0.02em;
       }
 
-      /* TIER 2: MIDDLE METRICS GRID (4 columns in 1 row) */
-      .ref-tier-middle {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 12px;
-        padding: 5px 0;
-        border-top: 1px dashed rgba(9, 11, 12, 0.12);
-        border-bottom: 1px dashed rgba(9, 11, 12, 0.12);
-      }
-      .ref-stat-item {
-        display: flex;
-        flex-direction: column;
-      }
-      .ref-stat-num {
-        font: 800 28px/1 var(--display);
-        letter-spacing: -0.04em;
-        color: var(--ink);
-      }
-      .ref-stat-label {
-        font: 700 8px/1.2 var(--mono);
-        color: rgba(9, 11, 12, 0.58);
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        margin-top: 2px;
-        white-space: nowrap;
-      }
-
-      /* TIER 3: BOTTOM PHOTO & INTRO BOX (White bg, Outline, Reference layout) */
+      /* TIER 2: BOTTOM PHOTO & INTRO BOX (White bg, Outline, Reference layout) */
       .ref-tier-bottom {
         background: #ffffff;
         border: 1px solid rgba(9, 11, 12, 0.2);
-        padding: 10px 14px 9px;
+        padding: 12px 15px 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: 7px;
+        gap: 9px;
         box-sizing: border-box;
-        flex: 1;
+        border-radius: 4px;
       }
       .ref-bottom-main {
         display: grid;
-        grid-template-columns: 1.22fr 0.98fr;
-        gap: 15px;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 14px;
         align-items: stretch;
       }
       .ref-bottom-left {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
+        gap: 7px;
       }
       .ref-bottom-header-block {
         display: flex;
@@ -712,15 +722,15 @@
         gap: 3px;
       }
       .ref-kicker {
-        font: 700 9px/1 var(--mono);
+        font: 700 9.5px/1 var(--mono);
         color: var(--acid);
         letter-spacing: 0.12em;
         text-transform: uppercase;
       }
       .ref-heading {
         margin: 0;
-        font: 900 20px/1.12 var(--display);
-        letter-spacing: -0.03em;
+        font: 900 20.5px/1.12 var(--display);
+        letter-spacing: -0.025em;
         color: var(--ink);
         text-transform: uppercase;
         white-space: nowrap;
@@ -731,9 +741,9 @@
         display: inline;
       }
       .ref-bottom-text {
-        margin: 6px 0 0;
-        font: 500 12px/1.55 var(--display);
-        color: rgba(9, 11, 12, 0.8);
+        margin: 0;
+        font: 500 12.5px/1.6 var(--display);
+        color: rgba(9, 11, 12, 0.82);
         text-align: justify;
         text-indent: 2em;
       }
@@ -844,7 +854,7 @@
       .term-cmd span { color: rgba(255,255,255,.5); }
 
       .term-qr-pre {
-        font-family: "Cascadia Code", "Consolas", "DejaVu Sans Mono", "SFMono-Regular", "Menlo", monospace;
+        font-family: "JetBrains Mono", "Cascadia Code", "Consolas", "DejaVu Sans Mono", monospace;
         font-size: 4.8px;
         line-height: 0.85;
         letter-spacing: 0;
@@ -860,7 +870,7 @@
       .term-qr-pre .b { color: #000000 !important; }
 
       .term-art-pre {
-        font-family: "Cascadia Code", "Consolas", "DejaVu Sans Mono", "SFMono-Regular", "Menlo", monospace;
+        font-family: "JetBrains Mono", "Cascadia Code", "Consolas", "DejaVu Sans Mono", monospace;
         font-size: 4.8px;
         line-height: 1.0;
         letter-spacing: 0;
@@ -1168,7 +1178,7 @@
           <!-- TOP MANIFESTO HEADER (Option A) -->
           <header class="ref-header-manifesto">
             <div class="ref-manifesto-meta">
-              <span class="manifesto-tag">01 / ABOUT NSA · 核心特征</span>
+              <span class="manifesto-tag">01 / ABOUT NSA</span>
               <span class="manifesto-subtag">SWJTU NSA // 2026 RECRUITMENT</span>
             </div>
             <h1 class="ref-manifesto-title">
@@ -1180,11 +1190,29 @@
           <!-- TIER 1: TOP TEXT SECTION (Lead on left, 8 colored tracks matrix on right) -->
           <div class="ref-tier-top">
             <div class="ref-top-left">
+              <!-- Faint Character Waterfall (Matrix Digital Rain, Fading In/Out) -->
+              <div class="char-waterfall" aria-hidden="true">
+                <span class="waterfall-col" style="--offset: -8px;">010110010110010101001110010100110100000101100011</span>
+                <span class="waterfall-col" style="--offset: 14px;">SWJTU#NSA//0x4E7A2F017BFF8902AA55CC99DDF0129B</span>
+                <span class="waterfall-col" style="--offset: -18px;">PWN.REVERSE.CRYPTO.WEB.AI.MISC.DEFENSE.ROOT</span>
+                <span class="waterfall-col" style="--offset: 6px;">0x7F454C4602010100000000000000000003003E0001</span>
+                <span class="waterfall-col" style="--offset: -14px;">EXPLOIT.SHELLCODE.ROP.OVERFLOW.CANARY.GOT.PLT</span>
+                <span class="waterfall-col" style="--offset: 18px;">1101001010110101001011001011001010110101001011</span>
+                <span class="waterfall-col" style="--offset: -5px;">LINUX/KERNEL/SOCKET/TCP/IP/CIPHER/HASH/SHA256</span>
+                <span class="waterfall-col" style="--offset: 20px;">CYBER.WARFARE.ANONYMOUS.INSPECTOR.NETSEC.2026</span>
+                <span class="waterfall-col" style="--offset: -12px;">0100001101010100010001100101111100110010001100</span>
+                <span class="waterfall-col" style="--offset: 10px;">EXECVE/SYS_READ/SYS_WRITE/SYS_OPEN/SYSCALL/RET</span>
+                <span class="waterfall-col" style="--offset: -22px;">0xDEADBEEF0xCAFEBABE0x1337C0DE0xBAADF00D414141</span>
+                <span class="waterfall-col" style="--offset: 4px;">AES.RSA.ECC.DIFFIE.HELLMAN.ZERO.KNOWLEDGE.ZK</span>
+                <span class="waterfall-col" style="--offset: -15px;">1010011010010110010100110100010101000011010001</span>
+                <span class="waterfall-col" style="--offset: 12px;">BUFFER.OVERFLOW.STACK.PIE.RELRO.FORTIFY.SOURCE</span>
+                <span class="waterfall-col" style="--offset: -2px;">0x31C050682F2F7368682F62696E89E3505389E1B00BCD</span>
+              </div>
               <p class="ref-top-lead">
                 西南交通大学最神秘的社团 —— <b>网络安全协会</b>正式招新！从理论到实战，深入探秘硬核攻防世界。
               </p>
               <p class="ref-top-sub">
-                <b>零基础什么也不懂？没关系！</b>专业学长学姐手把手带你入门，更有计算机基础讲座带你渡难关，筑牢交大网络安全城墙。
+                <b>零基础什么也不懂？没关系！</b>专业学长学姐<span style="white-space: nowrap;">手把手</span>带你入门，更有计算机基础讲座带你渡难关，筑牢交大网络安全城墙。
               </p>
             </div>
             <div class="ref-top-right ref-tech-grid-block">
@@ -1245,25 +1273,7 @@
             </div>
           </div>
 
-          <!-- TIER 2: MIDDLE METRICS (1 row of 4 key numbers) -->
-          <div class="ref-tier-middle">
-            <div class="ref-stat-item">
-              <div class="ref-stat-num">08</div>
-              <div class="ref-stat-label">DOMAINS // 核心赛道</div>
-            </div>
-            <div class="ref-stat-item">
-              <div class="ref-stat-num">0</div>
-              <div class="ref-stat-label">ENTRY // 零基础入门</div>
-            </div>
-            <div class="ref-stat-item">
-              <div class="ref-stat-num">1v1</div>
-              <div class="ref-stat-label">MENTOR // 专属带教</div>
-            </div>
-            <div class="ref-stat-item">
-              <div class="ref-stat-num">TOP</div>
-              <div class="ref-stat-label">ARENA // 征战省国赛</div>
-            </div>
-          </div>
+
 
           <!-- TIER 3: BOTTOM PHOTO & INTRO BOX (Outline, White Background) -->
           <div class="ref-tier-bottom">
