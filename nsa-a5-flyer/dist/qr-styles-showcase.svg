@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 1080" width="960" height="1080">
+<rect width="100%" height="100%" fill="#0a0d0f"/>
+<text x="50" y="52" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="900" fill="#ffffff">SWJTU NSA · 宣传单正面花式二维码方案候选</text>
+<text x="50" y="80" font-family="DejaVu Sans Mono, monospace" font-size="11" font-weight="700" fill="#0075b7" letter-spacing="1">FOUR HIGH-TECH QR STYLES // ALL SCAN-VERIFIED &amp; PRINT READY</text>
+<line x1="50" y1="98" x2="910" y2="98" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+<rect x="50" y="120" width="400" height="435" rx="8" fill="#13171b" stroke="rgba(0,117,183,0.4)" stroke-width="1.2"/>
+<text x="68" y="148" font-family="Noto Sans SC, sans-serif" font-size="15" font-weight="700" fill="#ffffff">方案 1: 战术 HUD 准星风格</text>
+<text x="68" y="166" font-family="DejaVu Sans Mono, monospace" font-size="9" font-weight="700" fill="#0075b7" letter-spacing="0.5">STYLE 01 // TACTICAL HUD &amp; RETICLE</text>
+<image href="qr-styles/style1-tactical-hud.png" x="110.0" y="178" width="280" height="300" preserveAspectRatio="xMidYMid meet"/>
+<text x="70" y="505" font-family="Noto Sans SC, sans-serif" font-size="11" fill="rgba(247,247,241,0.8)">L型战术标尺拐角 + 瞄准同心眼 + 中心网</text>
+<text x="70" y="526" font-family="Noto Sans SC, sans-serif" font-size="11" fill="rgba(247,247,241,0.8)">安盾牌徽标，与上方战术视窗完美呼应。</text>
+<rect x="510" y="120" width="400" height="435" rx="8" fill="#13171b" stroke="rgba(0,117,183,0.4)" stroke-width="1.2"/>
+<text x="528" y="148" font-family="Noto Sans SC, sans-serif" font-size="15" font-weight="700" fill="#ffffff">方案 2: 现代极简流体点阵</text>
+<text x="528" y="166" font-family="DejaVu Sans Mono, monospace" font-size="9" font-weight="700" fill="#0075b7" letter-spacing="0.5">STYLE 02 // MODERN FLUID DOTS</text>
+<image href="qr-styles/style2-fluid-dots.png" x="570.0" y="178" width="280" height="300" preserveAspectRatio="xMidYMid meet"/>
+<text x="530" y="505" font-family="Noto Sans SC, sans-serif" font-size="11" fill="rgba(247,247,241,0.8)">纯正流体正圆点阵 + 胶囊大圆角靶心 + 悬</text>
+<text x="530" y="526" font-family="Noto Sans SC, sans-serif" font-size="11" fill="rgba(247,247,241,0.8)">浮极客盾徽，大厂极简高级质感。</text>
+<rect x="50" y="590" width="400" height="435" rx="8" fill="#13171b" stroke="rgba(0,117,183,0.4)" stroke-width="1.2"/>
+<text x="68" y="618" font-family="Noto Sans SC, sans-serif" font-size="15" font-weight="700" fill="#ffffff">方案 3: 黑客微型终端视窗</text>
+<text x="68" y="636" font-family="DejaVu Sans Mono, monospace" font-size="9" font-weight="700" fill="#0075b7" letter-spacing="0.5">STYLE 03 // MINI TERMINAL WIDGET</text>
+<image href="qr-styles/style3-cyber-terminal.png" x="110.0" y="648" width="280" height="300" preserveAspectRatio="xMidYMid meet"/>
+<text x="70" y="975" font-family="Noto Sans SC, sans-serif" font-size="11" fill="rgba(247,247,241,0.8)">带红黄绿三色控灯的微型终端视窗 + ROOT</text>
+<text x="70" y="996" font-family="Noto Sans SC, sans-serif" font-size="11" fill="rgba(247,247,241,0.8)">微标 + 命令行交互提示符。</text>
+<rect x="510" y="590" width="400" height="435" rx="8" fill="#13171b" stroke="rgba(0,117,183,0.4)" stroke-width="1.2"/>
+<text x="528" y="618" font-family="Noto Sans SC, sans-serif" font-size="15" font-weight="700" fill="#ffffff">方案 4: 硬件安全 PCB 走线</text>
+<text x="528" y="636" font-family="DejaVu Sans Mono, monospace" font-size="9" font-weight="700" fill="#0075b7" letter-spacing="0.5">STYLE 04 // HARDWARE SECURITY PCB</text>
+<image href="qr-styles/style4-pcb-circuit.png" x="570.0" y="648" width="280" height="300" preserveAspectRatio="xMidYMid meet"/>
+<text x="530" y="975" font-family="Noto Sans SC, sans-serif" font-size="11" fill="rgba(247,247,241,0.8)">QFP芯片引脚眼 + 覆铜焊盘点阵 + 丝印</text>
+<text x="530" y="996" font-family="Noto Sans SC, sans-serif" font-size="11" fill="rgba(247,247,241,0.8)">测试点与微处理器核心刻印。</text>
+</svg>

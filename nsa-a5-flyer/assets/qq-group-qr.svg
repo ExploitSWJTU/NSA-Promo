@@ -1,8 +1,515 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Created with qrencode 4.1.1 (https://fukuchi.org/works/qrencode/index.html) -->
-<svg width="4.13cm" height="4.13cm" viewBox="0 0 39 39" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<g id="QRcode">
-		<rect x="0" y="0" width="39" height="39" fill="#ffffff"/>
-		<path style="stroke:#0075b7" transform="translate(3,3.5)" d="M0,0h1M1,0h1M2,0h1M3,0h1M4,0h1M5,0h1M6,0h1M8,0h1M12,0h1M18,0h1M20,0h1M22,0h1M23,0h1M24,0h1M26,0h1M27,0h1M28,0h1M29,0h1M30,0h1M31,0h1M32,0h1M0,1h1M6,1h1M11,1h1M12,1h1M13,1h1M14,1h1M15,1h1M17,1h1M18,1h1M19,1h1M23,1h1M26,1h1M32,1h1M0,2h1M2,2h1M3,2h1M4,2h1M6,2h1M9,2h1M10,2h1M13,2h1M16,2h1M23,2h1M24,2h1M26,2h1M28,2h1M29,2h1M30,2h1M32,2h1M0,3h1M2,3h1M3,3h1M4,3h1M6,3h1M8,3h1M11,3h1M15,3h1M17,3h1M18,3h1M19,3h1M22,3h1M24,3h1M26,3h1M28,3h1M29,3h1M30,3h1M32,3h1M0,4h1M2,4h1M3,4h1M4,4h1M6,4h1M9,4h1M11,4h1M15,4h1M16,4h1M18,4h1M19,4h1M20,4h1M21,4h1M22,4h1M24,4h1M26,4h1M28,4h1M29,4h1M30,4h1M32,4h1M0,5h1M6,5h1M13,5h1M15,5h1M16,5h1M20,5h1M21,5h1M23,5h1M24,5h1M26,5h1M32,5h1M0,6h1M1,6h1M2,6h1M3,6h1M4,6h1M5,6h1M6,6h1M8,6h1M10,6h1M12,6h1M14,6h1M16,6h1M18,6h1M20,6h1M22,6h1M24,6h1M26,6h1M27,6h1M28,6h1M29,6h1M30,6h1M31,6h1M32,6h1M11,7h1M16,7h1M18,7h1M19,7h1M21,7h1M23,7h1M2,8h1M4,8h1M5,8h1M6,8h1M8,8h1M9,8h1M12,8h1M14,8h1M16,8h1M17,8h1M18,8h1M19,8h1M25,8h1M29,8h1M32,8h1M0,9h1M3,9h1M4,9h1M7,9h1M10,9h1M13,9h1M17,9h1M18,9h1M19,9h1M20,9h1M22,9h1M23,9h1M24,9h1M26,9h1M30,9h1M31,9h1M32,9h1M0,10h1M1,10h1M2,10h1M3,10h1M4,10h1M5,10h1M6,10h1M7,10h1M9,10h1M12,10h1M13,10h1M14,10h1M16,10h1M18,10h1M21,10h1M26,10h1M28,10h1M29,10h1M31,10h1M32,10h1M0,11h1M3,11h1M4,11h1M7,11h1M8,11h1M9,11h1M12,11h1M14,11h1M16,11h1M18,11h1M19,11h1M24,11h1M0,12h1M1,12h1M3,12h1M4,12h1M6,12h1M8,12h1M10,12h1M11,12h1M12,12h1M13,12h1M14,12h1M15,12h1M17,12h1M18,12h1M20,12h1M24,12h1M25,12h1M26,12h1M27,12h1M28,12h1M29,12h1M32,12h1M0,13h1M1,13h1M2,13h1M4,13h1M7,13h1M8,13h1M14,13h1M16,13h1M20,13h1M24,13h1M26,13h1M31,13h1M32,13h1M2,14h1M3,14h1M6,14h1M7,14h1M10,14h1M11,14h1M12,14h1M16,14h1M21,14h1M24,14h1M25,14h1M26,14h1M28,14h1M31,14h1M32,14h1M0,15h1M2,15h1M7,15h1M8,15h1M10,15h1M12,15h1M13,15h1M14,15h1M16,15h1M17,15h1M18,15h1M19,15h1M20,15h1M21,15h1M22,15h1M24,15h1M25,15h1M26,15h1M27,15h1M28,15h1M31,15h1M32,15h1M6,16h1M7,16h1M9,16h1M11,16h1M12,16h1M13,16h1M14,16h1M15,16h1M18,16h1M19,16h1M21,16h1M22,16h1M23,16h1M25,16h1M26,16h1M27,16h1M31,16h1M0,17h1M2,17h1M5,17h1M9,17h1M10,17h1M13,17h1M15,17h1M19,17h1M20,17h1M27,17h1M29,17h1M30,17h1M32,17h1M0,18h1M3,18h1M5,18h1M6,18h1M7,18h1M8,18h1M11,18h1M12,18h1M13,18h1M15,18h1M16,18h1M17,18h1M20,18h1M21,18h1M26,18h1M27,18h1M30,18h1M31,18h1M32,18h1M1,19h1M2,19h1M3,19h1M4,19h1M9,19h1M10,19h1M15,19h1M17,19h1M21,19h1M22,19h1M26,19h1M28,19h1M0,20h1M6,20h1M9,20h1M11,20h1M13,20h1M15,20h1M17,20h1M21,20h1M24,20h1M26,20h1M27,20h1M29,20h1M32,20h1M2,21h1M3,21h1M4,21h1M5,21h1M7,21h1M8,21h1M10,21h1M11,21h1M12,21h1M14,21h1M18,21h1M23,21h1M24,21h1M25,21h1M30,21h1M31,21h1M32,21h1M0,22h1M5,22h1M6,22h1M7,22h1M8,22h1M11,22h1M13,22h1M14,22h1M15,22h1M17,22h1M18,22h1M19,22h1M21,22h1M22,22h1M23,22h1M24,22h1M26,22h1M29,22h1M30,22h1M32,22h1M1,23h1M2,23h1M5,23h1M8,23h1M9,23h1M11,23h1M14,23h1M17,23h1M18,23h1M21,23h1M24,23h1M25,23h1M28,23h1M29,23h1M0,24h1M3,24h1M4,24h1M5,24h1M6,24h1M9,24h1M11,24h1M12,24h1M14,24h1M17,24h1M19,24h1M21,24h1M23,24h1M24,24h1M25,24h1M26,24h1M27,24h1M28,24h1M31,24h1M8,25h1M9,25h1M11,25h1M13,25h1M16,25h1M18,25h1M19,25h1M21,25h1M22,25h1M23,25h1M24,25h1M28,25h1M29,25h1M32,25h1M0,26h1M1,26h1M2,26h1M3,26h1M4,26h1M5,26h1M6,26h1M9,26h1M10,26h1M12,26h1M13,26h1M15,26h1M16,26h1M17,26h1M18,26h1M22,26h1M24,26h1M26,26h1M28,26h1M29,26h1M30,26h1M31,26h1M32,26h1M0,27h1M6,27h1M8,27h1M9,27h1M10,27h1M14,27h1M15,27h1M17,27h1M18,27h1M20,27h1M21,27h1M22,27h1M24,27h1M28,27h1M29,27h1M32,27h1M0,28h1M2,28h1M3,28h1M4,28h1M6,28h1M8,28h1M9,28h1M10,28h1M12,28h1M13,28h1M14,28h1M17,28h1M18,28h1M20,28h1M22,28h1M24,28h1M25,28h1M26,28h1M27,28h1M28,28h1M31,28h1M0,29h1M2,29h1M3,29h1M4,29h1M6,29h1M9,29h1M11,29h1M12,29h1M15,29h1M19,29h1M22,29h1M24,29h1M28,29h1M30,29h1M0,30h1M2,30h1M3,30h1M4,30h1M6,30h1M8,30h1M9,30h1M13,30h1M17,30h1M22,30h1M23,30h1M24,30h1M25,30h1M27,30h1M28,30h1M29,30h1M30,30h1M32,30h1M0,31h1M6,31h1M10,31h1M12,31h1M13,31h1M18,31h1M19,31h1M21,31h1M23,31h1M24,31h1M25,31h1M27,31h1M31,31h1M0,32h1M1,32h1M2,32h1M3,32h1M4,32h1M5,32h1M6,32h1M9,32h1M10,32h1M12,32h1M13,32h1M14,32h1M15,32h1M17,32h1M19,32h1M20,32h1M22,32h1M24,32h1M25,32h1M26,32h1M27,32h1M28,32h1M30,32h1M31,32h1M32,32h1"/>
-	</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with QRBTF style a2c (Cross Constellation / Circuit) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.5 -2.5 34 34" width="100%" height="100%">
+  <rect x="-2.5" y="-2.5" width="34" height="34" fill="#ffffff" />
+  <rect fill="#0075b7" x="2" y="2" width="3" height="3" />
+  <rect fill="none" stroke-width="1" stroke="#0075b7" x="0.5" y="0.5" width="6" height="6" />
+  <rect fill="#0075b7" x="24" y="2" width="3" height="3" />
+  <rect fill="none" stroke-width="1" stroke="#0075b7" x="22.5" y="0.5" width="6" height="6" />
+  <rect fill="#0075b7" x="2" y="24" width="3" height="3" />
+  <rect fill="none" stroke-width="1" stroke="#0075b7" x="0.5" y="22.5" width="6" height="6" />
+  <circle opacity="1" r="0.2310" fill="#0075b7" cx="10.5" cy="0.5" />
+  <line opacity="1" x1="11.5" y1="0.5" x2="14.5" y2="3.5" stroke-width="0.2521" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3199" fill="#0075b7" cx="11.5" cy="0.5" />
+  <circle opacity="1" r="0.3708" fill="#0075b7" cx="12.5" cy="0.5" />
+  <line opacity="1" x1="13.5" y1="0.5" x2="14.5" y2="1.5" stroke-width="0.2735" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1918" fill="#0075b7" cx="13.5" cy="0.5" />
+  <circle opacity="1" r="0.2744" fill="#0075b7" cx="16.5" cy="0.5" />
+  <line opacity="1" x1="18.5" y1="0.5" x2="19.5" y2="1.5" stroke-width="0.2783" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4312" fill="#0075b7" cx="18.5" cy="0.5" />
+  <line opacity="1" x1="8.5" y1="1.5" x2="9.5" y2="2.5" stroke-width="0.2184" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2278" fill="#0075b7" cx="8.5" cy="1.5" />
+  <line opacity="1" x1="9.5" y1="1.5" x2="10.5" y2="0.5" stroke-width="0.2450" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="9.5" y1="1.5" x2="11.5" y2="3.5" stroke-width="0.2387" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2551" fill="#0075b7" cx="9.5" cy="1.5" />
+  <line opacity="1" x1="10.5" y1="1.5" x2="12.5" y2="3.5" stroke-width="0.2307" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2024" fill="#0075b7" cx="10.5" cy="1.5" />
+  <circle opacity="1" r="0.3260" fill="#0075b7" cx="12.5" cy="1.5" />
+  <circle opacity="1" r="0.2181" fill="#0075b7" cx="14.5" cy="1.5" />
+  <line opacity="1" x1="15.5" y1="1.5" x2="17.5" y2="3.5" stroke-width="0.1803" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2858" fill="#0075b7" cx="15.5" cy="1.5" />
+  <circle opacity="1" r="0.3814" fill="#0075b7" cx="16.5" cy="1.5" />
+  <line opacity="1" x1="18.5" y1="1.5" x2="20.5" y2="3.5" stroke-width="0.2642" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2451" fill="#0075b7" cx="18.5" cy="1.5" />
+  <circle opacity="1" r="0.4042" fill="#0075b7" cx="19.5" cy="1.5" />
+  <circle opacity="1" r="0.3899" fill="#0075b7" cx="20.5" cy="1.5" />
+  <line opacity="1" x1="9.5" y1="2.5" x2="11.5" y2="0.5" stroke-width="0.2161" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3970" fill="#0075b7" cx="9.5" cy="2.5" />
+  <circle opacity="1" r="0.4070" fill="#0075b7" cx="10.5" cy="2.5" />
+  <line opacity="1" x1="11.5" y1="2.5" x2="13.5" y2="0.5" stroke-width="0.2340" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2051" fill="#0075b7" cx="11.5" cy="2.5" />
+  <line opacity="1" x1="12.5" y1="2.5" x2="14.5" y2="4.5" stroke-width="0.1882" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4283" fill="#0075b7" cx="12.5" cy="2.5" />
+  <circle opacity="1" r="0.2040" fill="#0075b7" cx="13.5" cy="2.5" />
+  <line opacity="1" x1="14.5" y1="2.5" x2="15.5" y2="3.5" stroke-width="0.2595" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4292" fill="#0075b7" cx="14.5" cy="2.5" />
+  <circle opacity="1" r="0.2391" fill="#0075b7" cx="16.5" cy="2.5" />
+  <circle opacity="1" r="0.2779" fill="#0075b7" cx="19.5" cy="2.5" />
+  <line opacity="1" x1="9.5" y1="3.5" x2="10.5" y2="4.5" stroke-width="0.1223" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4208" fill="#0075b7" cx="9.5" cy="3.5" />
+  <circle opacity="1" r="0.3662" fill="#0075b7" cx="11.5" cy="3.5" />
+  <circle opacity="1" r="0.3409" fill="#0075b7" cx="12.5" cy="3.5" />
+  <line opacity="1" x1="13.5" y1="3.5" x2="16.5" y2="0.5" stroke-width="0.2274" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2182" fill="#0075b7" cx="13.5" cy="3.5" />
+  <circle opacity="1" r="0.2075" fill="#0075b7" cx="14.5" cy="3.5" />
+  <circle opacity="1" r="0.3407" fill="#0075b7" cx="15.5" cy="3.5" />
+  <circle opacity="1" r="0.2096" fill="#0075b7" cx="17.5" cy="3.5" />
+  <circle opacity="1" r="0.4268" fill="#0075b7" cx="18.5" cy="3.5" />
+  <circle opacity="1" r="0.2997" fill="#0075b7" cx="19.5" cy="3.5" />
+  <circle opacity="1" r="0.1856" fill="#0075b7" cx="20.5" cy="3.5" />
+  <line opacity="1" x1="8.5" y1="4.5" x2="10.5" y2="2.5" stroke-width="0.2163" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3170" fill="#0075b7" cx="8.5" cy="4.5" />
+  <line opacity="1" x1="9.5" y1="4.5" x2="10.5" y2="5.5" stroke-width="0.1738" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2453" fill="#0075b7" cx="9.5" cy="4.5" />
+  <line opacity="1" x1="10.5" y1="4.5" x2="12.5" y2="2.5" stroke-width="0.1601" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2682" fill="#0075b7" cx="10.5" cy="4.5" />
+  <line opacity="1" x1="11.5" y1="4.5" x2="12.5" y2="5.5" stroke-width="0.2280" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4381" fill="#0075b7" cx="11.5" cy="4.5" />
+  <circle opacity="1" r="0.3307" fill="#0075b7" cx="14.5" cy="4.5" />
+  <line opacity="1" x1="17.5" y1="4.5" x2="20.5" y2="1.5" stroke-width="0.2901" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2327" fill="#0075b7" cx="17.5" cy="4.5" />
+  <line opacity="1" x1="10.5" y1="5.5" x2="14.5" y2="1.5" stroke-width="0.1980" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3438" fill="#0075b7" cx="10.5" cy="5.5" />
+  <circle opacity="1" r="0.2623" fill="#0075b7" cx="12.5" cy="5.5" />
+  <line opacity="1" x1="13.5" y1="5.5" x2="14.5" y2="6.5" stroke-width="0.1727" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2282" fill="#0075b7" cx="13.5" cy="5.5" />
+  <line opacity="1" x1="17.5" y1="5.5" x2="18.5" y2="6.5" stroke-width="0.2589" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3379" fill="#0075b7" cx="17.5" cy="5.5" />
+  <line opacity="1" x1="19.5" y1="5.5" x2="20.5" y2="6.5" stroke-width="0.1162" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4079" fill="#0075b7" cx="19.5" cy="5.5" />
+  <circle opacity="1" r="0.3832" fill="#0075b7" cx="8.5" cy="6.5" />
+  <circle opacity="1" r="0.3043" fill="#0075b7" cx="10.5" cy="6.5" />
+  <line opacity="1" x1="12.5" y1="6.5" x2="16.5" y2="2.5" stroke-width="0.1431" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="12.5" y1="6.5" x2="15.5" y2="9.5" stroke-width="0.1590" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1869" fill="#0075b7" cx="12.5" cy="6.5" />
+  <circle opacity="1" r="0.4333" fill="#0075b7" cx="14.5" cy="6.5" />
+  <line opacity="1" x1="16.5" y1="6.5" x2="17.5" y2="5.5" stroke-width="0.1860" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="16.5" y1="6.5" x2="17.5" y2="7.5" stroke-width="0.1331" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3789" fill="#0075b7" cx="16.5" cy="6.5" />
+  <circle opacity="1" r="0.3388" fill="#0075b7" cx="18.5" cy="6.5" />
+  <circle opacity="1" r="0.1931" fill="#0075b7" cx="20.5" cy="6.5" />
+  <circle opacity="1" r="0.4268" fill="#0075b7" cx="12.5" cy="7.5" />
+  <circle opacity="1" r="0.2786" fill="#0075b7" cx="13.5" cy="7.5" />
+  <line opacity="1" x1="14.5" y1="7.5" x2="15.5" y2="8.5" stroke-width="0.1855" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4227" fill="#0075b7" cx="14.5" cy="7.5" />
+  <circle opacity="1" r="0.2030" fill="#0075b7" cx="16.5" cy="7.5" />
+  <line opacity="1" x1="17.5" y1="7.5" x2="19.5" y2="5.5" stroke-width="0.1948" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2118" fill="#0075b7" cx="17.5" cy="7.5" />
+  <circle opacity="1" r="0.2226" fill="#0075b7" cx="20.5" cy="7.5" />
+  <circle opacity="1" r="0.3413" fill="#0075b7" cx="0.5" cy="8.5" />
+  <line opacity="1" x1="2.5" y1="8.5" x2="3.5" y2="9.5" stroke-width="0.3048" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1826" fill="#0075b7" cx="2.5" cy="8.5" />
+  <circle opacity="1" r="0.2864" fill="#0075b7" cx="4.5" cy="8.5" />
+  <line opacity="1" x1="6.5" y1="8.5" x2="8.5" y2="10.5" stroke-width="0.2841" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1936" fill="#0075b7" cx="6.5" cy="8.5" />
+  <line opacity="1" x1="10.5" y1="8.5" x2="12.5" y2="10.5" stroke-width="0.1549" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2379" fill="#0075b7" cx="10.5" cy="8.5" />
+  <line opacity="1" x1="11.5" y1="8.5" x2="12.5" y2="7.5" stroke-width="0.2542" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2852" fill="#0075b7" cx="11.5" cy="8.5" />
+  <circle opacity="1" r="0.3043" fill="#0075b7" cx="12.5" cy="8.5" />
+  <circle opacity="1" r="0.2799" fill="#0075b7" cx="14.5" cy="8.5" />
+  <circle opacity="1" r="0.2948" fill="#0075b7" cx="15.5" cy="8.5" />
+  <line opacity="1" x1="24.5" y1="8.5" x2="28.5" y2="12.5" stroke-width="0.1219" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3111" fill="#0075b7" cx="24.5" cy="8.5" />
+  <line opacity="1" x1="27.5" y1="8.5" x2="28.5" y2="9.5" stroke-width="0.2572" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2585" fill="#0075b7" cx="27.5" cy="8.5" />
+  <line opacity="1" x1="0.5" y1="9.5" x2="2.5" y2="11.5" stroke-width="0.2094" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3562" fill="#0075b7" cx="0.5" cy="9.5" />
+  <line opacity="1" x1="3.5" y1="9.5" x2="4.5" y2="8.5" stroke-width="0.2552" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3717" fill="#0075b7" cx="3.5" cy="9.5" />
+  <line opacity="1" x1="4.5" y1="9.5" x2="5.5" y2="10.5" stroke-width="0.2527" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3576" fill="#0075b7" cx="4.5" cy="9.5" />
+  <circle opacity="1" r="0.3569" fill="#0075b7" cx="7.5" cy="9.5" />
+  <circle opacity="1" r="0.2384" fill="#0075b7" cx="11.5" cy="9.5" />
+  <circle opacity="1" r="0.3399" fill="#0075b7" cx="14.5" cy="9.5" />
+  <circle opacity="1" r="0.3709" fill="#0075b7" cx="15.5" cy="9.5" />
+  <circle opacity="1" r="0.3553" fill="#0075b7" cx="18.5" cy="9.5" />
+  <line opacity="1" x1="22.5" y1="9.5" x2="23.5" y2="10.5" stroke-width="0.2975" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2592" fill="#0075b7" cx="22.5" cy="9.5" />
+  <circle opacity="1" r="0.2949" fill="#0075b7" cx="25.5" cy="9.5" />
+  <circle opacity="1" r="0.1923" fill="#0075b7" cx="28.5" cy="9.5" />
+  <circle opacity="1" r="0.3972" fill="#0075b7" cx="1.5" cy="10.5" />
+  <line opacity="1" x1="3.5" y1="10.5" x2="5.5" y2="12.5" stroke-width="0.3033" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2832" fill="#0075b7" cx="3.5" cy="10.5" />
+  <circle opacity="1" r="0.3652" fill="#0075b7" cx="5.5" cy="10.5" />
+  <circle opacity="1" r="0.3489" fill="#0075b7" cx="6.5" cy="10.5" />
+  <line opacity="1" x1="7.5" y1="10.5" x2="8.5" y2="11.5" stroke-width="0.1894" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2737" fill="#0075b7" cx="7.5" cy="10.5" />
+  <circle opacity="1" r="0.4192" fill="#0075b7" cx="8.5" cy="10.5" />
+  <line opacity="1" x1="10.5" y1="10.5" x2="14.5" y2="6.5" stroke-width="0.1958" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2332" fill="#0075b7" cx="10.5" cy="10.5" />
+  <circle opacity="1" r="0.2239" fill="#0075b7" cx="12.5" cy="10.5" />
+  <line opacity="1" x1="13.5" y1="10.5" x2="16.5" y2="7.5" stroke-width="0.2939" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3539" fill="#0075b7" cx="13.5" cy="10.5" />
+  <line opacity="1" x1="17.5" y1="10.5" x2="18.5" y2="9.5" stroke-width="0.2817" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2580" fill="#0075b7" cx="17.5" cy="10.5" />
+  <circle opacity="1" r="0.2164" fill="#0075b7" cx="18.5" cy="10.5" />
+  <line opacity="1" x1="22.5" y1="10.5" x2="23.5" y2="11.5" stroke-width="0.1858" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1765" fill="#0075b7" cx="22.5" cy="10.5" />
+  <circle opacity="1" r="0.1961" fill="#0075b7" cx="23.5" cy="10.5" />
+  <circle opacity="1" r="0.2083" fill="#0075b7" cx="24.5" cy="10.5" />
+  <circle opacity="1" r="0.2858" fill="#0075b7" cx="26.5" cy="10.5" />
+  <line opacity="1" x1="27.5" y1="10.5" x2="28.5" y2="9.5" stroke-width="0.2818" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3196" fill="#0075b7" cx="27.5" cy="10.5" />
+  <circle opacity="1" r="0.4313" fill="#0075b7" cx="28.5" cy="10.5" />
+  <line opacity="1" x1="0.5" y1="11.5" x2="1.5" y2="10.5" stroke-width="0.2930" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1875" fill="#0075b7" cx="0.5" cy="11.5" />
+  <line opacity="1" x1="2.5" y1="11.5" x2="4.5" y2="9.5" stroke-width="0.1273" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3523" fill="#0075b7" cx="2.5" cy="11.5" />
+  <circle opacity="1" r="0.1872" fill="#0075b7" cx="3.5" cy="11.5" />
+  <line opacity="1" x1="4.5" y1="11.5" x2="5.5" y2="10.5" stroke-width="0.1414" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3148" fill="#0075b7" cx="4.5" cy="11.5" />
+  <line opacity="1" x1="5.5" y1="11.5" x2="7.5" y2="9.5" stroke-width="0.3008" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="5.5" y1="11.5" x2="6.5" y2="12.5" stroke-width="0.2309" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4166" fill="#0075b7" cx="5.5" cy="11.5" />
+  <circle opacity="1" r="0.2290" fill="#0075b7" cx="8.5" cy="11.5" />
+  <line opacity="1" x1="15.5" y1="11.5" x2="19.5" y2="15.5" stroke-width="0.2820" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2380" fill="#0075b7" cx="15.5" cy="11.5" />
+  <circle opacity="1" r="0.2268" fill="#0075b7" cx="17.5" cy="11.5" />
+  <circle opacity="1" r="0.2663" fill="#0075b7" cx="20.5" cy="11.5" />
+  <circle opacity="1" r="0.4195" fill="#0075b7" cx="23.5" cy="11.5" />
+  <line opacity="1" x1="27.5" y1="11.5" x2="28.5" y2="10.5" stroke-width="0.1824" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2977" fill="#0075b7" cx="27.5" cy="11.5" />
+  <line opacity="1" x1="0.5" y1="12.5" x2="1.5" y2="13.5" stroke-width="0.1884" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1987" fill="#0075b7" cx="0.5" cy="12.5" />
+  <circle opacity="1" r="0.3433" fill="#0075b7" cx="5.5" cy="12.5" />
+  <circle opacity="1" r="0.1844" fill="#0075b7" cx="6.5" cy="12.5" />
+  <line opacity="1" x1="7.5" y1="12.5" x2="8.5" y2="11.5" stroke-width="0.2745" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="7.5" y1="12.5" x2="9.5" y2="14.5" stroke-width="0.1677" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2536" fill="#0075b7" cx="7.5" cy="12.5" />
+  <circle opacity="1" r="0.4330" fill="#0075b7" cx="16.5" cy="12.5" />
+  <line opacity="1" x1="17.5" y1="12.5" x2="18.5" y2="13.5" stroke-width="0.2707" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3296" fill="#0075b7" cx="17.5" cy="12.5" />
+  <circle opacity="1" r="0.4278" fill="#0075b7" cx="19.5" cy="12.5" />
+  <line opacity="1" x1="20.5" y1="12.5" x2="21.5" y2="13.5" stroke-width="0.2378" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2577" fill="#0075b7" cx="20.5" cy="12.5" />
+  <circle opacity="1" r="0.2233" fill="#0075b7" cx="22.5" cy="12.5" />
+  <circle opacity="1" r="0.2248" fill="#0075b7" cx="23.5" cy="12.5" />
+  <circle opacity="1" r="0.4135" fill="#0075b7" cx="25.5" cy="12.5" />
+  <line opacity="1" x1="27.5" y1="12.5" x2="28.5" y2="13.5" stroke-width="0.1283" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4071" fill="#0075b7" cx="27.5" cy="12.5" />
+  <circle opacity="1" r="0.3772" fill="#0075b7" cx="28.5" cy="12.5" />
+  <circle opacity="1" r="0.1878" fill="#0075b7" cx="0.5" cy="13.5" />
+  <circle opacity="1" r="0.2060" fill="#0075b7" cx="1.5" cy="13.5" />
+  <line opacity="1" x1="2.5" y1="13.5" x2="4.5" y2="15.5" stroke-width="0.1758" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3126" fill="#0075b7" cx="2.5" cy="13.5" />
+  <circle opacity="1" r="0.2619" fill="#0075b7" cx="3.5" cy="13.5" />
+  <line opacity="1" x1="4.5" y1="13.5" x2="5.5" y2="14.5" stroke-width="0.3053" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4148" fill="#0075b7" cx="4.5" cy="13.5" />
+  <line opacity="1" x1="5.5" y1="13.5" x2="6.5" y2="12.5" stroke-width="0.2943" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="5.5" y1="13.5" x2="6.5" y2="14.5" stroke-width="0.1473" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3397" fill="#0075b7" cx="5.5" cy="13.5" />
+  <circle opacity="1" r="0.2616" fill="#0075b7" cx="8.5" cy="13.5" />
+  <line opacity="1" x1="9.5" y1="13.5" x2="12.5" y2="16.5" stroke-width="0.1729" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1977" fill="#0075b7" cx="9.5" cy="13.5" />
+  <circle opacity="1" r="0.4261" fill="#0075b7" cx="11.5" cy="13.5" />
+  <line opacity="1" x1="13.5" y1="13.5" x2="14.5" y2="14.5" stroke-width="0.2686" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3642" fill="#0075b7" cx="13.5" cy="13.5" />
+  <line opacity="1" x1="15.5" y1="13.5" x2="17.5" y2="15.5" stroke-width="0.1537" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1909" fill="#0075b7" cx="15.5" cy="13.5" />
+  <circle opacity="1" r="0.4198" fill="#0075b7" cx="16.5" cy="13.5" />
+  <circle opacity="1" r="0.3117" fill="#0075b7" cx="17.5" cy="13.5" />
+  <line opacity="1" x1="18.5" y1="13.5" x2="20.5" y2="11.5" stroke-width="0.2147" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2097" fill="#0075b7" cx="18.5" cy="13.5" />
+  <line opacity="1" x1="21.5" y1="13.5" x2="25.5" y2="9.5" stroke-width="0.1715" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3300" fill="#0075b7" cx="21.5" cy="13.5" />
+  <circle opacity="1" r="0.3744" fill="#0075b7" cx="22.5" cy="13.5" />
+  <circle opacity="1" r="0.4303" fill="#0075b7" cx="25.5" cy="13.5" />
+  <circle opacity="1" r="0.3544" fill="#0075b7" cx="28.5" cy="13.5" />
+  <line opacity="1" x1="0.5" y1="14.5" x2="1.5" y2="13.5" stroke-width="0.1538" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="0.5" y1="14.5" x2="3.5" y2="17.5" stroke-width="0.2958" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2310" fill="#0075b7" cx="0.5" cy="14.5" />
+  <line opacity="1" x1="3.5" y1="14.5" x2="5.5" y2="12.5" stroke-width="0.2903" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3404" fill="#0075b7" cx="3.5" cy="14.5" />
+  <circle opacity="1" r="0.3352" fill="#0075b7" cx="5.5" cy="14.5" />
+  <circle opacity="1" r="0.2466" fill="#0075b7" cx="6.5" cy="14.5" />
+  <circle opacity="1" r="0.2945" fill="#0075b7" cx="9.5" cy="14.5" />
+  <circle opacity="1" r="0.2474" fill="#0075b7" cx="10.5" cy="14.5" />
+  <circle opacity="1" r="0.3647" fill="#0075b7" cx="11.5" cy="14.5" />
+  <circle opacity="1" r="0.3952" fill="#0075b7" cx="14.5" cy="14.5" />
+  <line opacity="1" x1="15.5" y1="14.5" x2="18.5" y2="17.5" stroke-width="0.2374" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3497" fill="#0075b7" cx="15.5" cy="14.5" />
+  <line opacity="1" x1="16.5" y1="14.5" x2="17.5" y2="13.5" stroke-width="0.1491" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2025" fill="#0075b7" cx="16.5" cy="14.5" />
+  <circle opacity="1" r="0.3120" fill="#0075b7" cx="18.5" cy="14.5" />
+  <line opacity="1" x1="21.5" y1="14.5" x2="23.5" y2="12.5" stroke-width="0.2927" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="21.5" y1="14.5" x2="22.5" y2="15.5" stroke-width="0.1330" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3620" fill="#0075b7" cx="21.5" cy="14.5" />
+  <circle opacity="1" r="0.2962" fill="#0075b7" cx="25.5" cy="14.5" />
+  <line opacity="1" x1="27.5" y1="14.5" x2="28.5" y2="13.5" stroke-width="0.1208" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3452" fill="#0075b7" cx="27.5" cy="14.5" />
+  <circle opacity="1" r="0.2326" fill="#0075b7" cx="28.5" cy="14.5" />
+  <line opacity="1" x1="0.5" y1="15.5" x2="5.5" y2="20.5" stroke-width="0.1785" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3719" fill="#0075b7" cx="0.5" cy="15.5" />
+  <circle opacity="1" r="0.3376" fill="#0075b7" cx="1.5" cy="15.5" />
+  <line opacity="1" x1="4.5" y1="15.5" x2="5.5" y2="14.5" stroke-width="0.1924" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2876" fill="#0075b7" cx="4.5" cy="15.5" />
+  <line opacity="1" x1="5.5" y1="15.5" x2="6.5" y2="14.5" stroke-width="0.1260" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="5.5" y1="15.5" x2="8.5" y2="18.5" stroke-width="0.2438" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2026" fill="#0075b7" cx="5.5" cy="15.5" />
+  <line opacity="1" x1="9.5" y1="15.5" x2="12.5" y2="18.5" stroke-width="0.3053" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3180" fill="#0075b7" cx="9.5" cy="15.5" />
+  <circle opacity="1" r="0.2275" fill="#0075b7" cx="11.5" cy="15.5" />
+  <line opacity="1" x1="13.5" y1="15.5" x2="15.5" y2="17.5" stroke-width="0.2675" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2909" fill="#0075b7" cx="13.5" cy="15.5" />
+  <line opacity="1" x1="14.5" y1="15.5" x2="17.5" y2="12.5" stroke-width="0.1377" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="14.5" y1="15.5" x2="15.5" y2="16.5" stroke-width="0.2888" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3810" fill="#0075b7" cx="14.5" cy="15.5" />
+  <circle opacity="1" r="0.2533" fill="#0075b7" cx="16.5" cy="15.5" />
+  <line opacity="1" x1="17.5" y1="15.5" x2="18.5" y2="14.5" stroke-width="0.2555" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4337" fill="#0075b7" cx="17.5" cy="15.5" />
+  <circle opacity="1" r="0.2101" fill="#0075b7" cx="18.5" cy="15.5" />
+  <circle opacity="1" r="0.3586" fill="#0075b7" cx="19.5" cy="15.5" />
+  <line opacity="1" x1="21.5" y1="15.5" x2="25.5" y2="19.5" stroke-width="0.2016" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1883" fill="#0075b7" cx="21.5" cy="15.5" />
+  <circle opacity="1" r="0.2311" fill="#0075b7" cx="22.5" cy="15.5" />
+  <line opacity="1" x1="24.5" y1="15.5" x2="25.5" y2="14.5" stroke-width="0.2340" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="24.5" y1="15.5" x2="27.5" y2="18.5" stroke-width="0.2046" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3607" fill="#0075b7" cx="24.5" cy="15.5" />
+  <circle opacity="1" r="0.4114" fill="#0075b7" cx="25.5" cy="15.5" />
+  <line opacity="1" x1="27.5" y1="15.5" x2="28.5" y2="14.5" stroke-width="0.2689" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="27.5" y1="15.5" x2="28.5" y2="16.5" stroke-width="0.2261" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3585" fill="#0075b7" cx="27.5" cy="15.5" />
+  <line opacity="1" x1="0.5" y1="16.5" x2="1.5" y2="15.5" stroke-width="0.2028" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2425" fill="#0075b7" cx="0.5" cy="16.5" />
+  <circle opacity="1" r="0.2904" fill="#0075b7" cx="1.5" cy="16.5" />
+  <circle opacity="1" r="0.4044" fill="#0075b7" cx="2.5" cy="16.5" />
+  <circle opacity="1" r="0.2157" fill="#0075b7" cx="6.5" cy="16.5" />
+  <circle opacity="1" r="0.3173" fill="#0075b7" cx="8.5" cy="16.5" />
+  <circle opacity="1" r="0.2912" fill="#0075b7" cx="9.5" cy="16.5" />
+  <line opacity="1" x1="10.5" y1="16.5" x2="11.5" y2="15.5" stroke-width="0.2480" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2847" fill="#0075b7" cx="10.5" cy="16.5" />
+  <circle opacity="1" r="0.3320" fill="#0075b7" cx="12.5" cy="16.5" />
+  <circle opacity="1" r="0.2484" fill="#0075b7" cx="14.5" cy="16.5" />
+  <circle opacity="1" r="0.3030" fill="#0075b7" cx="15.5" cy="16.5" />
+  <line opacity="1" x1="17.5" y1="16.5" x2="18.5" y2="15.5" stroke-width="0.2589" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2639" fill="#0075b7" cx="17.5" cy="16.5" />
+  <line opacity="1" x1="21.5" y1="16.5" x2="24.5" y2="19.5" stroke-width="0.1451" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2572" fill="#0075b7" cx="21.5" cy="16.5" />
+  <circle opacity="1" r="0.2493" fill="#0075b7" cx="22.5" cy="16.5" />
+  <circle opacity="1" r="0.4041" fill="#0075b7" cx="25.5" cy="16.5" />
+  <line opacity="1" x1="27.5" y1="16.5" x2="28.5" y2="17.5" stroke-width="0.2517" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3151" fill="#0075b7" cx="27.5" cy="16.5" />
+  <circle opacity="1" r="0.1776" fill="#0075b7" cx="28.5" cy="16.5" />
+  <circle opacity="1" r="0.2683" fill="#0075b7" cx="2.5" cy="17.5" />
+  <circle opacity="1" r="0.3066" fill="#0075b7" cx="3.5" cy="17.5" />
+  <circle opacity="1" r="0.1788" fill="#0075b7" cx="7.5" cy="17.5" />
+  <circle opacity="1" r="0.3502" fill="#0075b7" cx="11.5" cy="17.5" />
+  <line opacity="1" x1="12.5" y1="17.5" x2="13.5" y2="18.5" stroke-width="0.2310" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2529" fill="#0075b7" cx="12.5" cy="17.5" />
+  <circle opacity="1" r="0.1886" fill="#0075b7" cx="14.5" cy="17.5" />
+  <circle opacity="1" r="0.2437" fill="#0075b7" cx="15.5" cy="17.5" />
+  <circle opacity="1" r="0.2455" fill="#0075b7" cx="17.5" cy="17.5" />
+  <circle opacity="1" r="0.4239" fill="#0075b7" cx="18.5" cy="17.5" />
+  <line opacity="1" x1="20.5" y1="17.5" x2="22.5" y2="15.5" stroke-width="0.2867" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2669" fill="#0075b7" cx="20.5" cy="17.5" />
+  <line opacity="1" x1="21.5" y1="17.5" x2="22.5" y2="16.5" stroke-width="0.2583" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="21.5" y1="17.5" x2="22.5" y2="18.5" stroke-width="0.2895" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4275" fill="#0075b7" cx="21.5" cy="17.5" />
+  <circle opacity="1" r="0.4068" fill="#0075b7" cx="22.5" cy="17.5" />
+  <circle opacity="1" r="0.3655" fill="#0075b7" cx="23.5" cy="17.5" />
+  <circle opacity="1" r="0.3078" fill="#0075b7" cx="25.5" cy="17.5" />
+  <line opacity="1" x1="26.5" y1="17.5" x2="27.5" y2="16.5" stroke-width="0.2611" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3754" fill="#0075b7" cx="26.5" cy="17.5" />
+  <circle opacity="1" r="0.2832" fill="#0075b7" cx="28.5" cy="17.5" />
+  <line opacity="1" x1="0.5" y1="18.5" x2="1.5" y2="19.5" stroke-width="0.2699" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2891" fill="#0075b7" cx="0.5" cy="18.5" />
+  <circle opacity="1" r="0.1991" fill="#0075b7" cx="2.5" cy="18.5" />
+  <circle opacity="1" r="0.2881" fill="#0075b7" cx="3.5" cy="18.5" />
+  <line opacity="1" x1="6.5" y1="18.5" x2="11.5" y2="13.5" stroke-width="0.1445" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="6.5" y1="18.5" x2="7.5" y2="19.5" stroke-width="0.3020" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1885" fill="#0075b7" cx="6.5" cy="18.5" />
+  <circle opacity="1" r="0.2691" fill="#0075b7" cx="8.5" cy="18.5" />
+  <line opacity="1" x1="10.5" y1="18.5" x2="18.5" y2="10.5" stroke-width="0.2013" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="10.5" y1="18.5" x2="14.5" y2="22.5" stroke-width="0.1311" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2913" fill="#0075b7" cx="10.5" cy="18.5" />
+  <circle opacity="1" r="0.4289" fill="#0075b7" cx="12.5" cy="18.5" />
+  <line opacity="1" x1="13.5" y1="18.5" x2="16.5" y2="15.5" stroke-width="0.3006" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3939" fill="#0075b7" cx="13.5" cy="18.5" />
+  <line opacity="1" x1="17.5" y1="18.5" x2="18.5" y2="17.5" stroke-width="0.2910" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1950" fill="#0075b7" cx="17.5" cy="18.5" />
+  <line opacity="1" x1="22.5" y1="18.5" x2="23.5" y2="17.5" stroke-width="0.2957" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3655" fill="#0075b7" cx="22.5" cy="18.5" />
+  <circle opacity="1" r="0.4020" fill="#0075b7" cx="23.5" cy="18.5" />
+  <line opacity="1" x1="24.5" y1="18.5" x2="25.5" y2="17.5" stroke-width="0.1481" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3882" fill="#0075b7" cx="24.5" cy="18.5" />
+  <line opacity="1" x1="27.5" y1="18.5" x2="28.5" y2="17.5" stroke-width="0.2540" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4329" fill="#0075b7" cx="27.5" cy="18.5" />
+  <circle opacity="1" r="0.3292" fill="#0075b7" cx="28.5" cy="18.5" />
+  <circle opacity="1" r="0.1960" fill="#0075b7" cx="1.5" cy="19.5" />
+  <line opacity="1" x1="2.5" y1="19.5" x2="3.5" y2="18.5" stroke-width="0.2580" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2991" fill="#0075b7" cx="2.5" cy="19.5" />
+  <circle opacity="1" r="0.2687" fill="#0075b7" cx="4.5" cy="19.5" />
+  <circle opacity="1" r="0.4117" fill="#0075b7" cx="7.5" cy="19.5" />
+  <line opacity="1" x1="10.5" y1="19.5" x2="12.5" y2="21.5" stroke-width="0.2853" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4291" fill="#0075b7" cx="10.5" cy="19.5" />
+  <circle opacity="1" r="0.4001" fill="#0075b7" cx="11.5" cy="19.5" />
+  <line opacity="1" x1="15.5" y1="19.5" x2="16.5" y2="20.5" stroke-width="0.1593" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2577" fill="#0075b7" cx="15.5" cy="19.5" />
+  <circle opacity="1" r="0.1819" fill="#0075b7" cx="17.5" cy="19.5" />
+  <line opacity="1" x1="20.5" y1="19.5" x2="21.5" y2="20.5" stroke-width="0.2983" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3948" fill="#0075b7" cx="20.5" cy="19.5" />
+  <line opacity="1" x1="22.5" y1="19.5" x2="25.5" y2="22.5" stroke-width="0.2773" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2902" fill="#0075b7" cx="22.5" cy="19.5" />
+  <circle opacity="1" r="0.4209" fill="#0075b7" cx="24.5" cy="19.5" />
+  <circle opacity="1" r="0.3619" fill="#0075b7" cx="25.5" cy="19.5" />
+  <line opacity="1" x1="27.5" y1="19.5" x2="28.5" y2="18.5" stroke-width="0.1361" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1814" fill="#0075b7" cx="27.5" cy="19.5" />
+  <line opacity="1" x1="0.5" y1="20.5" x2="3.5" y2="17.5" stroke-width="0.1218" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2820" fill="#0075b7" cx="0.5" cy="20.5" />
+  <circle opacity="1" r="0.3167" fill="#0075b7" cx="4.5" cy="20.5" />
+  <circle opacity="1" r="0.2450" fill="#0075b7" cx="5.5" cy="20.5" />
+  <line opacity="1" x1="6.5" y1="20.5" x2="8.5" y2="18.5" stroke-width="0.2538" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4072" fill="#0075b7" cx="6.5" cy="20.5" />
+  <line opacity="1" x1="7.5" y1="20.5" x2="10.5" y2="23.5" stroke-width="0.2678" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3009" fill="#0075b7" cx="7.5" cy="20.5" />
+  <line opacity="1" x1="9.5" y1="20.5" x2="10.5" y2="21.5" stroke-width="0.2045" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1845" fill="#0075b7" cx="9.5" cy="20.5" />
+  <line opacity="1" x1="10.5" y1="20.5" x2="11.5" y2="21.5" stroke-width="0.1314" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3655" fill="#0075b7" cx="10.5" cy="20.5" />
+  <circle opacity="1" r="0.2858" fill="#0075b7" cx="11.5" cy="20.5" />
+  <circle opacity="1" r="0.4351" fill="#0075b7" cx="12.5" cy="20.5" />
+  <circle opacity="1" r="0.1892" fill="#0075b7" cx="16.5" cy="20.5" />
+  <circle opacity="1" r="0.2688" fill="#0075b7" cx="17.5" cy="20.5" />
+  <line opacity="1" x1="19.5" y1="20.5" x2="20.5" y2="19.5" stroke-width="0.2238" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="19.5" y1="20.5" x2="20.5" y2="21.5" stroke-width="0.2865" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2438" fill="#0075b7" cx="19.5" cy="20.5" />
+  <circle opacity="1" r="0.2429" fill="#0075b7" cx="20.5" cy="20.5" />
+  <circle opacity="1" r="0.3426" fill="#0075b7" cx="21.5" cy="20.5" />
+  <circle opacity="1" r="0.3212" fill="#0075b7" cx="22.5" cy="20.5" />
+  <line opacity="1" x1="23.5" y1="20.5" x2="24.5" y2="19.5" stroke-width="0.2061" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3632" fill="#0075b7" cx="23.5" cy="20.5" />
+  <line opacity="1" x1="24.5" y1="20.5" x2="25.5" y2="19.5" stroke-width="0.2399" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3427" fill="#0075b7" cx="24.5" cy="20.5" />
+  <line opacity="1" x1="8.5" y1="21.5" x2="10.5" y2="19.5" stroke-width="0.2182" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4300" fill="#0075b7" cx="8.5" cy="21.5" />
+  <line opacity="1" x1="9.5" y1="21.5" x2="12.5" y2="18.5" stroke-width="0.1432" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3141" fill="#0075b7" cx="9.5" cy="21.5" />
+  <circle opacity="1" r="0.4172" fill="#0075b7" cx="10.5" cy="21.5" />
+  <line opacity="1" x1="11.5" y1="21.5" x2="12.5" y2="20.5" stroke-width="0.2005" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2004" fill="#0075b7" cx="11.5" cy="21.5" />
+  <circle opacity="1" r="0.4186" fill="#0075b7" cx="12.5" cy="21.5" />
+  <circle opacity="1" r="0.4216" fill="#0075b7" cx="13.5" cy="21.5" />
+  <line opacity="1" x1="15.5" y1="21.5" x2="17.5" y2="23.5" stroke-width="0.2433" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2795" fill="#0075b7" cx="15.5" cy="21.5" />
+  <circle opacity="1" r="0.1817" fill="#0075b7" cx="16.5" cy="21.5" />
+  <line opacity="1" x1="19.5" y1="21.5" x2="20.5" y2="20.5" stroke-width="0.2399" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="19.5" y1="21.5" x2="20.5" y2="22.5" stroke-width="0.2611" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2135" fill="#0075b7" cx="19.5" cy="21.5" />
+  <circle opacity="1" r="0.2971" fill="#0075b7" cx="20.5" cy="21.5" />
+  <circle opacity="1" r="0.2865" fill="#0075b7" cx="24.5" cy="21.5" />
+  <line opacity="1" x1="26.5" y1="21.5" x2="28.5" y2="23.5" stroke-width="0.2517" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3133" fill="#0075b7" cx="26.5" cy="21.5" />
+  <line opacity="1" x1="27.5" y1="21.5" x2="28.5" y2="22.5" stroke-width="0.2708" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2091" fill="#0075b7" cx="27.5" cy="21.5" />
+  <circle opacity="1" r="0.2407" fill="#0075b7" cx="28.5" cy="21.5" />
+  <line opacity="1" x1="9.5" y1="22.5" x2="11.5" y2="20.5" stroke-width="0.1775" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3936" fill="#0075b7" cx="9.5" cy="22.5" />
+  <circle opacity="1" r="0.1895" fill="#0075b7" cx="14.5" cy="22.5" />
+  <line opacity="1" x1="15.5" y1="22.5" x2="16.5" y2="23.5" stroke-width="0.1920" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2316" fill="#0075b7" cx="15.5" cy="22.5" />
+  <circle opacity="1" r="0.2702" fill="#0075b7" cx="16.5" cy="22.5" />
+  <line opacity="1" x1="19.5" y1="22.5" x2="21.5" y2="24.5" stroke-width="0.2007" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3634" fill="#0075b7" cx="19.5" cy="22.5" />
+  <circle opacity="1" r="0.3282" fill="#0075b7" cx="20.5" cy="22.5" />
+  <circle opacity="1" r="0.4073" fill="#0075b7" cx="22.5" cy="22.5" />
+  <line opacity="1" x1="24.5" y1="22.5" x2="25.5" y2="23.5" stroke-width="0.2569" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2089" fill="#0075b7" cx="24.5" cy="22.5" />
+  <circle opacity="1" r="0.2044" fill="#0075b7" cx="25.5" cy="22.5" />
+  <line opacity="1" x1="27.5" y1="22.5" x2="28.5" y2="21.5" stroke-width="0.2500" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2877" fill="#0075b7" cx="27.5" cy="22.5" />
+  <circle opacity="1" r="0.3248" fill="#0075b7" cx="28.5" cy="22.5" />
+  <line opacity="1" x1="9.5" y1="23.5" x2="10.5" y2="24.5" stroke-width="0.1182" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4101" fill="#0075b7" cx="9.5" cy="23.5" />
+  <circle opacity="1" r="0.3488" fill="#0075b7" cx="10.5" cy="23.5" />
+  <line opacity="1" x1="13.5" y1="23.5" x2="15.5" y2="25.5" stroke-width="0.1375" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4215" fill="#0075b7" cx="13.5" cy="23.5" />
+  <line opacity="1" x1="14.5" y1="23.5" x2="17.5" y2="20.5" stroke-width="0.2697" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="14.5" y1="23.5" x2="15.5" y2="24.5" stroke-width="0.1943" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4323" fill="#0075b7" cx="14.5" cy="23.5" />
+  <circle opacity="1" r="0.2847" fill="#0075b7" cx="16.5" cy="23.5" />
+  <circle opacity="1" r="0.2581" fill="#0075b7" cx="17.5" cy="23.5" />
+  <line opacity="1" x1="18.5" y1="23.5" x2="23.5" y2="18.5" stroke-width="0.1968" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4173" fill="#0075b7" cx="18.5" cy="23.5" />
+  <line opacity="1" x1="19.5" y1="23.5" x2="20.5" y2="22.5" stroke-width="0.1604" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="19.5" y1="23.5" x2="20.5" y2="24.5" stroke-width="0.2525" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3653" fill="#0075b7" cx="19.5" cy="23.5" />
+  <circle opacity="1" r="0.3358" fill="#0075b7" cx="20.5" cy="23.5" />
+  <circle opacity="1" r="0.2400" fill="#0075b7" cx="24.5" cy="23.5" />
+  <circle opacity="1" r="0.2390" fill="#0075b7" cx="25.5" cy="23.5" />
+  <line opacity="1" x1="27.5" y1="23.5" x2="28.5" y2="22.5" stroke-width="0.2763" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2925" fill="#0075b7" cx="27.5" cy="23.5" />
+  <circle opacity="1" r="0.4140" fill="#0075b7" cx="28.5" cy="23.5" />
+  <line opacity="1" x1="8.5" y1="24.5" x2="9.5" y2="23.5" stroke-width="0.1792" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3664" fill="#0075b7" cx="8.5" cy="24.5" />
+  <line opacity="1" x1="9.5" y1="24.5" x2="10.5" y2="23.5" stroke-width="0.1362" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="9.5" y1="24.5" x2="10.5" y2="25.5" stroke-width="0.2170" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3073" fill="#0075b7" cx="9.5" cy="24.5" />
+  <circle opacity="1" r="0.2541" fill="#0075b7" cx="10.5" cy="24.5" />
+  <line opacity="1" x1="12.5" y1="24.5" x2="17.5" y2="19.5" stroke-width="0.2761" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2254" fill="#0075b7" cx="12.5" cy="24.5" />
+  <circle opacity="1" r="0.4052" fill="#0075b7" cx="14.5" cy="24.5" />
+  <circle opacity="1" r="0.3501" fill="#0075b7" cx="15.5" cy="24.5" />
+  <circle opacity="1" r="0.2312" fill="#0075b7" cx="16.5" cy="24.5" />
+  <circle opacity="1" r="0.2391" fill="#0075b7" cx="20.5" cy="24.5" />
+  <circle opacity="1" r="0.2893" fill="#0075b7" cx="21.5" cy="24.5" />
+  <line opacity="1" x1="22.5" y1="24.5" x2="24.5" y2="26.5" stroke-width="0.3052" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3962" fill="#0075b7" cx="22.5" cy="24.5" />
+  <line opacity="1" x1="23.5" y1="24.5" x2="26.5" y2="21.5" stroke-width="0.2231" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="23.5" y1="24.5" x2="25.5" y2="26.5" stroke-width="0.2924" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1921" fill="#0075b7" cx="23.5" cy="24.5" />
+  <circle opacity="1" r="0.2984" fill="#0075b7" cx="24.5" cy="24.5" />
+  <circle opacity="1" r="0.2893" fill="#0075b7" cx="27.5" cy="24.5" />
+  <circle opacity="1" r="0.2670" fill="#0075b7" cx="10.5" cy="25.5" />
+  <circle opacity="1" r="0.3241" fill="#0075b7" cx="14.5" cy="25.5" />
+  <circle opacity="1" r="0.4252" fill="#0075b7" cx="15.5" cy="25.5" />
+  <line opacity="1" x1="23.5" y1="25.5" x2="25.5" y2="23.5" stroke-width="0.1333" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2461" fill="#0075b7" cx="23.5" cy="25.5" />
+  <circle opacity="1" r="0.4059" fill="#0075b7" cx="24.5" cy="25.5" />
+  <circle opacity="1" r="0.3710" fill="#0075b7" cx="26.5" cy="25.5" />
+  <line opacity="1" x1="8.5" y1="26.5" x2="9.5" y2="27.5" stroke-width="0.3086" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3418" fill="#0075b7" cx="8.5" cy="26.5" />
+  <line opacity="1" x1="9.5" y1="26.5" x2="10.5" y2="25.5" stroke-width="0.2468" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2208" fill="#0075b7" cx="9.5" cy="26.5" />
+  <line opacity="1" x1="13.5" y1="26.5" x2="14.5" y2="27.5" stroke-width="0.2376" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2663" fill="#0075b7" cx="13.5" cy="26.5" />
+  <line opacity="1" x1="14.5" y1="26.5" x2="17.5" y2="23.5" stroke-width="0.1537" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2560" fill="#0075b7" cx="14.5" cy="26.5" />
+  <line opacity="1" x1="18.5" y1="26.5" x2="20.5" y2="28.5" stroke-width="0.1418" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3108" fill="#0075b7" cx="18.5" cy="26.5" />
+  <line opacity="1" x1="19.5" y1="26.5" x2="21.5" y2="28.5" stroke-width="0.1248" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3064" fill="#0075b7" cx="19.5" cy="26.5" />
+  <circle opacity="1" r="0.3107" fill="#0075b7" cx="23.5" cy="26.5" />
+  <circle opacity="1" r="0.2560" fill="#0075b7" cx="24.5" cy="26.5" />
+  <line opacity="1" x1="25.5" y1="26.5" x2="28.5" y2="23.5" stroke-width="0.2733" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3395" fill="#0075b7" cx="25.5" cy="26.5" />
+  <circle opacity="1" r="0.2993" fill="#0075b7" cx="28.5" cy="26.5" />
+  <circle opacity="1" r="0.3147" fill="#0075b7" cx="9.5" cy="27.5" />
+  <circle opacity="1" r="0.2425" fill="#0075b7" cx="11.5" cy="27.5" />
+  <line opacity="1" x1="12.5" y1="27.5" x2="13.5" y2="28.5" stroke-width="0.3016" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.1854" fill="#0075b7" cx="12.5" cy="27.5" />
+  <circle opacity="1" r="0.3951" fill="#0075b7" cx="14.5" cy="27.5" />
+  <line opacity="1" x1="17.5" y1="27.5" x2="18.5" y2="26.5" stroke-width="0.1538" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3793" fill="#0075b7" cx="17.5" cy="27.5" />
+  <circle opacity="1" r="0.3779" fill="#0075b7" cx="19.5" cy="27.5" />
+  <circle opacity="1" r="0.3371" fill="#0075b7" cx="20.5" cy="27.5" />
+  <circle opacity="1" r="0.2120" fill="#0075b7" cx="22.5" cy="27.5" />
+  <line opacity="1" x1="27.5" y1="27.5" x2="28.5" y2="26.5" stroke-width="0.2066" stroke="#0075b7" stroke-linecap="round" />
+  <line opacity="1" x1="27.5" y1="27.5" x2="28.5" y2="28.5" stroke-width="0.2306" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3238" fill="#0075b7" cx="27.5" cy="27.5" />
+  <line opacity="1" x1="8.5" y1="28.5" x2="9.5" y2="27.5" stroke-width="0.1875" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3298" fill="#0075b7" cx="8.5" cy="28.5" />
+  <line opacity="1" x1="11.5" y1="28.5" x2="16.5" y2="23.5" stroke-width="0.2021" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.4108" fill="#0075b7" cx="11.5" cy="28.5" />
+  <line opacity="1" x1="13.5" y1="28.5" x2="14.5" y2="27.5" stroke-width="0.3055" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2363" fill="#0075b7" cx="13.5" cy="28.5" />
+  <line opacity="1" x1="19.5" y1="28.5" x2="20.5" y2="27.5" stroke-width="0.1969" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.2317" fill="#0075b7" cx="19.5" cy="28.5" />
+  <circle opacity="1" r="0.2579" fill="#0075b7" cx="20.5" cy="28.5" />
+  <line opacity="1" x1="21.5" y1="28.5" x2="24.5" y2="25.5" stroke-width="0.1928" stroke="#0075b7" stroke-linecap="round" />
+  <circle opacity="1" r="0.3584" fill="#0075b7" cx="21.5" cy="28.5" />
+  <circle opacity="1" r="0.2053" fill="#0075b7" cx="24.5" cy="28.5" />
+  <circle opacity="1" r="0.2394" fill="#0075b7" cx="25.5" cy="28.5" />
+  <circle opacity="1" r="0.3961" fill="#0075b7" cx="27.5" cy="28.5" />
+  <circle opacity="1" r="0.1888" fill="#0075b7" cx="28.5" cy="28.5" />
 </svg>
