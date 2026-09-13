@@ -553,7 +553,7 @@
       .ref-manifesto-title {
         margin: 2px 0 0;
         padding-top: 7px;
-        font: 900 20.5px/1.14 var(--display);
+        font: 900 30.75px/1.12 var(--display);
         letter-spacing: -0.035em;
         color: var(--ink);
       }
@@ -570,27 +570,23 @@
         grid-template-columns: 1.25fr 0.82fr;
         gap: 14px;
         align-items: stretch;
-      }
-      .ref-top-left {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 8px;
         position: relative;
-        overflow: hidden;
       }
       .char-waterfall {
         position: absolute;
-        inset: -14px -6px;
+        top: -18px;
+        bottom: -18px;
+        left: -16px;
+        right: -16px;
         display: flex;
         justify-content: space-between;
         pointer-events: none;
         user-select: none;
         z-index: 0;
-        opacity: 0.095;
+        opacity: 0.12;
         overflow: hidden;
-        mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.95) 22%, rgba(0, 0, 0, 0.95) 75%, transparent 100%);
-        -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.95) 22%, rgba(0, 0, 0, 0.95) 75%, transparent 100%);
+        mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.95) 14%, rgba(0, 0, 0, 0.95) 84%, transparent 100%);
+        -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.95) 14%, rgba(0, 0, 0, 0.95) 84%, transparent 100%);
       }
       .waterfall-col {
         writing-mode: vertical-rl;
@@ -601,6 +597,14 @@
         transform: translateY(var(--offset, 0));
         white-space: nowrap;
       }
+      .ref-top-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+        position: relative;
+        z-index: 1;
+      }
       .ref-top-lead {
         margin: 0;
         font: 600 15px/1.48 var(--display);
@@ -608,8 +612,6 @@
         color: var(--ink);
         text-align: left;
         text-indent: 2em;
-        position: relative;
-        z-index: 1;
       }
       .ref-top-lead b {
         font-weight: 800;
@@ -622,8 +624,6 @@
         color: rgba(9, 11, 12, 0.82);
         text-align: left;
         text-indent: 2em;
-        position: relative;
-        z-index: 1;
       }
       .ref-top-sub b {
         font-weight: 800;
@@ -632,13 +632,16 @@
       .ref-top-right {
         display: flex;
         flex-direction: column;
+        position: relative;
+        z-index: 1;
       }
       .ref-tech-grid-block {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 8px 10px;
-        background: #ffffff;
+        background: rgba(255, 255, 255, 0.65);
+        backdrop-filter: blur(2px);
         border: 1px solid rgba(9, 11, 12, 0.15);
         border-radius: 4px;
         box-sizing: border-box;
@@ -668,9 +671,9 @@
         align-items: center;
         gap: 5px;
         padding: 4px 6px;
-        background: rgba(0, 0, 0, 0.02);
+        background: rgba(255, 255, 255, 0.82);
         border-radius: 2.5px;
-        border: 1px solid rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.06);
       }
       .tech-dir-icon {
         display: flex;
@@ -1189,25 +1192,37 @@
 
           <!-- TIER 1: TOP TEXT SECTION (Lead on left, 8 colored tracks matrix on right) -->
           <div class="ref-tier-top">
+            <!-- Faint Character Waterfall (Matrix Digital Rain across entire Tier 1) -->
+            <div class="char-waterfall" aria-hidden="true">
+              <span class="waterfall-col" style="--offset: -8px;">010110010110010101001110010100110100000101100011</span>
+              <span class="waterfall-col" style="--offset: 14px;">SWJTU#NSA//0x4E7A2F017BFF8902AA55CC99DDF0129B</span>
+              <span class="waterfall-col" style="--offset: -18px;">PWN.REVERSE.CRYPTO.WEB.AI.MISC.DEFENSE.ROOT</span>
+              <span class="waterfall-col" style="--offset: 6px;">0x7F454C4602010100000000000000000003003E0001</span>
+              <span class="waterfall-col" style="--offset: -14px;">EXPLOIT.SHELLCODE.ROP.OVERFLOW.CANARY.GOT.PLT</span>
+              <span class="waterfall-col" style="--offset: 18px;">1101001010110101001011001011001010110101001011</span>
+              <span class="waterfall-col" style="--offset: -5px;">LINUX/KERNEL/SOCKET/TCP/IP/CIPHER/HASH/SHA256</span>
+              <span class="waterfall-col" style="--offset: 20px;">CYBER.WARFARE.ANONYMOUS.INSPECTOR.NETSEC.2026</span>
+              <span class="waterfall-col" style="--offset: -12px;">0100001101010100010001100101111100110010001100</span>
+              <span class="waterfall-col" style="--offset: 10px;">EXECVE/SYS_READ/SYS_WRITE/SYS_OPEN/SYSCALL/RET</span>
+              <span class="waterfall-col" style="--offset: -22px;">0xDEADBEEF0xCAFEBABE0x1337C0DE0xBAADF00D414141</span>
+              <span class="waterfall-col" style="--offset: 4px;">AES.RSA.ECC.DIFFIE.HELLMAN.ZERO.KNOWLEDGE.ZK</span>
+              <span class="waterfall-col" style="--offset: -15px;">1010011010010110010100110100010101000011010001</span>
+              <span class="waterfall-col" style="--offset: 12px;">BUFFER.OVERFLOW.STACK.PIE.RELRO.FORTIFY.SOURCE</span>
+              <span class="waterfall-col" style="--offset: -2px;">0x31C050682F2F7368682F62696E89E3505389E1B00BCD</span>
+              <span class="waterfall-col" style="--offset: 16px;">REVERSE/DISASM/GHIDRA/IDA/GDB/RADARE2/BINARY</span>
+              <span class="waterfall-col" style="--offset: -10px;">0101000001010111010011100101111100110010001100</span>
+              <span class="waterfall-col" style="--offset: 8px;">WEB.INJECTION.XSS.SQLI.SSRF.RCE.DESERIALIZE</span>
+              <span class="waterfall-col" style="--offset: -16px;">0x89504E470D0A1A0A0000000D494844520000010001</span>
+              <span class="waterfall-col" style="--offset: 22px;">HARDWARE.IOT.FIRMWARE.UART.JTAG.SPI.BUSPIRATE</span>
+              <span class="waterfall-col" style="--offset: -6px;">0100000101001001010111110101001101000101010003</span>
+              <span class="waterfall-col" style="--offset: 14px;">MOBILE.ANDROID.APK.SMALI.FRIDA.OBJECTION.ARM</span>
+              <span class="waterfall-col" style="--offset: -20px;">0x504B03041400000008000000000000000000000000</span>
+              <span class="waterfall-col" style="--offset: 6px;">CRYPTO.BLOCK.STREAM.LWE.ELLIPTIC.CURVE.CURVE</span>
+              <span class="waterfall-col" style="--offset: -12px;">0100110101001001010100110100001101011111001101</span>
+              <span class="waterfall-col" style="--offset: 18px;">DEFENSE/BLUE/RED/PURPLE/SOC/CERT/FORENSICS/LOG</span>
+            </div>
+
             <div class="ref-top-left">
-              <!-- Faint Character Waterfall (Matrix Digital Rain, Fading In/Out) -->
-              <div class="char-waterfall" aria-hidden="true">
-                <span class="waterfall-col" style="--offset: -8px;">010110010110010101001110010100110100000101100011</span>
-                <span class="waterfall-col" style="--offset: 14px;">SWJTU#NSA//0x4E7A2F017BFF8902AA55CC99DDF0129B</span>
-                <span class="waterfall-col" style="--offset: -18px;">PWN.REVERSE.CRYPTO.WEB.AI.MISC.DEFENSE.ROOT</span>
-                <span class="waterfall-col" style="--offset: 6px;">0x7F454C4602010100000000000000000003003E0001</span>
-                <span class="waterfall-col" style="--offset: -14px;">EXPLOIT.SHELLCODE.ROP.OVERFLOW.CANARY.GOT.PLT</span>
-                <span class="waterfall-col" style="--offset: 18px;">1101001010110101001011001011001010110101001011</span>
-                <span class="waterfall-col" style="--offset: -5px;">LINUX/KERNEL/SOCKET/TCP/IP/CIPHER/HASH/SHA256</span>
-                <span class="waterfall-col" style="--offset: 20px;">CYBER.WARFARE.ANONYMOUS.INSPECTOR.NETSEC.2026</span>
-                <span class="waterfall-col" style="--offset: -12px;">0100001101010100010001100101111100110010001100</span>
-                <span class="waterfall-col" style="--offset: 10px;">EXECVE/SYS_READ/SYS_WRITE/SYS_OPEN/SYSCALL/RET</span>
-                <span class="waterfall-col" style="--offset: -22px;">0xDEADBEEF0xCAFEBABE0x1337C0DE0xBAADF00D414141</span>
-                <span class="waterfall-col" style="--offset: 4px;">AES.RSA.ECC.DIFFIE.HELLMAN.ZERO.KNOWLEDGE.ZK</span>
-                <span class="waterfall-col" style="--offset: -15px;">1010011010010110010100110100010101000011010001</span>
-                <span class="waterfall-col" style="--offset: 12px;">BUFFER.OVERFLOW.STACK.PIE.RELRO.FORTIFY.SOURCE</span>
-                <span class="waterfall-col" style="--offset: -2px;">0x31C050682F2F7368682F62696E89E3505389E1B00BCD</span>
-              </div>
               <p class="ref-top-lead">
                 西南交通大学最神秘的社团 —— <b>网络安全协会</b>正式招新！从理论到实战，深入探秘硬核攻防世界。
               </p>
