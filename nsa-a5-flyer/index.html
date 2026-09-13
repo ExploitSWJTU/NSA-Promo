@@ -567,7 +567,7 @@
       /* TIER 1: TOP SECTION (Lead text on left, 8 directions colored matrix on right) */
       .ref-tier-top {
         display: grid;
-        grid-template-columns: 1.25fr 0.82fr;
+        grid-template-columns: 1.15fr 0.85fr;
         gap: 14px;
         align-items: stretch;
         position: relative;
@@ -607,7 +607,7 @@
       }
       .ref-top-lead {
         margin: 0;
-        font: 600 15px/1.48 var(--display);
+        font: 600 14.8px/1.48 var(--display);
         letter-spacing: -0.01em;
         color: var(--ink);
         text-align: left;
@@ -620,7 +620,7 @@
       }
       .ref-top-sub {
         margin: 0;
-        font: 500 13.2px/1.52 var(--display);
+        font: 500 13px/1.52 var(--display);
         color: rgba(9, 11, 12, 0.82);
         text-align: left;
         text-indent: 2em;
@@ -639,8 +639,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 8px 10px;
-        background: rgba(255, 255, 255, 0.65);
+        padding: 8px 9px;
+        background: rgba(255, 255, 255, 0.68);
         backdrop-filter: blur(2px);
         border: 1px solid rgba(9, 11, 12, 0.15);
         border-radius: 4px;
@@ -663,36 +663,38 @@
       .tech-directions-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 6px;
+        column-gap: 5px;
         row-gap: 4px;
       }
       .tech-dir-item {
         display: flex;
         align-items: center;
-        gap: 5px;
-        padding: 4px 6px;
-        background: rgba(255, 255, 255, 0.82);
-        border-radius: 2.5px;
+        gap: 4px;
+        padding: 3.5px 5px;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 3px;
         border: 1px solid rgba(0, 0, 0, 0.06);
+        white-space: nowrap;
       }
       .tech-dir-icon {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 15px;
-        height: 15px;
+        width: 14px;
+        height: 14px;
         color: var(--dir-color);
         flex-shrink: 0;
       }
       .tech-dir-icon svg {
-        width: 13px;
-        height: 13px;
+        width: 12.5px;
+        height: 12.5px;
         stroke: var(--dir-color);
       }
       .tech-dir-name {
-        font: 700 10.5px/1 var(--mono);
+        font: 700 9.6px/1 var(--display);
         color: var(--ink);
-        letter-spacing: 0.02em;
+        letter-spacing: -0.02em;
+        white-space: nowrap;
       }
 
       /* TIER 2: BOTTOM PHOTO & INTRO BOX (White bg, Outline, Reference layout) */
@@ -1194,40 +1196,46 @@
           <div class="ref-tier-top">
             <!-- Faint Character Waterfall (Matrix Digital Rain across entire Tier 1) -->
             <div class="char-waterfall" aria-hidden="true">
-              <span class="waterfall-col" style="--offset: -8px;">010110010110010101001110010100110100000101100011</span>
-              <span class="waterfall-col" style="--offset: 14px;">SWJTU#NSA//0x4E7A2F017BFF8902AA55CC99DDF0129B</span>
-              <span class="waterfall-col" style="--offset: -18px;">PWN.REVERSE.CRYPTO.WEB.AI.MISC.DEFENSE.ROOT</span>
-              <span class="waterfall-col" style="--offset: 6px;">0x7F454C4602010100000000000000000003003E0001</span>
-              <span class="waterfall-col" style="--offset: -14px;">EXPLOIT.SHELLCODE.ROP.OVERFLOW.CANARY.GOT.PLT</span>
-              <span class="waterfall-col" style="--offset: 18px;">1101001010110101001011001011001010110101001011</span>
-              <span class="waterfall-col" style="--offset: -5px;">LINUX/KERNEL/SOCKET/TCP/IP/CIPHER/HASH/SHA256</span>
-              <span class="waterfall-col" style="--offset: 20px;">CYBER.WARFARE.ANONYMOUS.INSPECTOR.NETSEC.2026</span>
-              <span class="waterfall-col" style="--offset: -12px;">0100001101010100010001100101111100110010001100</span>
-              <span class="waterfall-col" style="--offset: 10px;">EXECVE/SYS_READ/SYS_WRITE/SYS_OPEN/SYSCALL/RET</span>
-              <span class="waterfall-col" style="--offset: -22px;">0xDEADBEEF0xCAFEBABE0x1337C0DE0xBAADF00D414141</span>
-              <span class="waterfall-col" style="--offset: 4px;">AES.RSA.ECC.DIFFIE.HELLMAN.ZERO.KNOWLEDGE.ZK</span>
-              <span class="waterfall-col" style="--offset: -15px;">1010011010010110010100110100010101000011010001</span>
-              <span class="waterfall-col" style="--offset: 12px;">BUFFER.OVERFLOW.STACK.PIE.RELRO.FORTIFY.SOURCE</span>
-              <span class="waterfall-col" style="--offset: -2px;">0x31C050682F2F7368682F62696E89E3505389E1B00BCD</span>
-              <span class="waterfall-col" style="--offset: 16px;">REVERSE/DISASM/GHIDRA/IDA/GDB/RADARE2/BINARY</span>
-              <span class="waterfall-col" style="--offset: -10px;">0101000001010111010011100101111100110010001100</span>
-              <span class="waterfall-col" style="--offset: 8px;">WEB.INJECTION.XSS.SQLI.SSRF.RCE.DESERIALIZE</span>
-              <span class="waterfall-col" style="--offset: -16px;">0x89504E470D0A1A0A0000000D494844520000010001</span>
-              <span class="waterfall-col" style="--offset: 22px;">HARDWARE.IOT.FIRMWARE.UART.JTAG.SPI.BUSPIRATE</span>
-              <span class="waterfall-col" style="--offset: -6px;">0100000101001001010111110101001101000101010003</span>
-              <span class="waterfall-col" style="--offset: 14px;">MOBILE.ANDROID.APK.SMALI.FRIDA.OBJECTION.ARM</span>
-              <span class="waterfall-col" style="--offset: -20px;">0x504B03041400000008000000000000000000000000</span>
-              <span class="waterfall-col" style="--offset: 6px;">CRYPTO.BLOCK.STREAM.LWE.ELLIPTIC.CURVE.CURVE</span>
-              <span class="waterfall-col" style="--offset: -12px;">0100110101001001010100110100001101011111001101</span>
-              <span class="waterfall-col" style="--offset: 18px;">DEFENSE/BLUE/RED/PURPLE/SOC/CERT/FORENSICS/LOG</span>
+              <span class="waterfall-col" style="--offset: -12px;">010110010110010101001110010100110100000101100011010011100101001101000001</span>
+              <span class="waterfall-col" style="--offset: 14px;">SWJTU#NSA//0x4E7A2F017BFF8902AA55CC99DDF0129B00112233445566778899AABBCC</span>
+              <span class="waterfall-col" style="--offset: -20px;">PWN.REVERSE.CRYPTO.WEB.AI.MISC.DEFENSE.ROOT.SHELL.PRIVILEGE.ESC.KERNEL.0</span>
+              <span class="waterfall-col" style="--offset: 6px;">0x7F454C4602010100000000000000000003003E0001000000B0104000000000004000</span>
+              <span class="waterfall-col" style="--offset: -16px;">EXPLOIT.SHELLCODE.ROP.OVERFLOW.CANARY.GOT.PLT.RET2LIBC.ONEGADGET.SYSTEM</span>
+              <span class="waterfall-col" style="--offset: 18px;">1101001010110101001011001011001010110101001011010011010010110101001101</span>
+              <span class="waterfall-col" style="--offset: -8px;">LINUX/KERNEL/SOCKET/TCP/IP/CIPHER/HASH/SHA256/AES/GCM/CHACHA20/POLY1305</span>
+              <span class="waterfall-col" style="--offset: 22px;">CYBER.WARFARE.ANONYMOUS.INSPECTOR.NETSEC.2026.SWJTU.CLASSIFIED.PORTAL.X</span>
+              <span class="waterfall-col" style="--offset: -14px;">0100001101010100010001100101111100110010001100000011001000110110010001</span>
+              <span class="waterfall-col" style="--offset: 10px;">EXECVE/SYS_READ/SYS_WRITE/SYS_OPEN/SYSCALL/RET/NOP/INT3/SYSEXIT/PTRACE</span>
+              <span class="waterfall-col" style="--offset: -24px;">0xDEADBEEF0xCAFEBABE0x1337C0DE0xBAADF00D414141414242424243434343444444</span>
+              <span class="waterfall-col" style="--offset: 4px;">AES.RSA.ECC.DIFFIE.HELLMAN.ZERO.KNOWLEDGE.ZK.SNARK.LWE.LATTICE.POST.QNT</span>
+              <span class="waterfall-col" style="--offset: -18px;">1010011010010110010100110100010101000011010001010100001101000101010000</span>
+              <span class="waterfall-col" style="--offset: 12px;">BUFFER.OVERFLOW.STACK.PIE.RELRO.FORTIFY.SOURCE.ASLR.NX.DEP.SEH.CFI.W^X</span>
+              <span class="waterfall-col" style="--offset: -4px;">0x31C050682F2F7368682F62696E89E3505389E1B00BCD8031DB40CD80909090909090</span>
+              <span class="waterfall-col" style="--offset: 16px;">REVERSE/DISASM/GHIDRA/IDA/GDB/RADARE2/BINARY/DECOMPILE/SYMBOLS/DWARF/ELF</span>
+              <span class="waterfall-col" style="--offset: -10px;">0101000001010111010011100101111100110010001100000011001000110110010001</span>
+              <span class="waterfall-col" style="--offset: 8px;">WEB.INJECTION.XSS.SQLI.SSRF.RCE.DESERIALIZE.JWT.OAUTH.CORS.SSTI.DIR.TRAV</span>
+              <span class="waterfall-col" style="--offset: -22px;">0x89504E470D0A1A0A0000000D4948445200000100010008060000005C72A866000000</span>
+              <span class="waterfall-col" style="--offset: 24px;">HARDWARE.IOT.FIRMWARE.UART.JTAG.SPI.BUSPIRATE.LOGIC.ANALYZE.IC.FLASH.ROM</span>
+              <span class="waterfall-col" style="--offset: -6px;">0100000101001001010111110101001101000101010000110101010101010000010101</span>
+              <span class="waterfall-col" style="--offset: 14px;">MOBILE.ANDROID.APK.SMALI.FRIDA.OBJECTION.ARM64.HOOK.INSPECTION.KEYSTORE</span>
+              <span class="waterfall-col" style="--offset: -20px;">0x504B0304140000000800000000000000000000000000000000000000000000000000</span>
+              <span class="waterfall-col" style="--offset: 6px;">CRYPTO.BLOCK.STREAM.LWE.ELLIPTIC.CURVE.ECDSA.ED25519.BLS.PRNG.NONCE.KEY</span>
+              <span class="waterfall-col" style="--offset: -16px;">0100110101001001010100110100001101011111001100100011000000110010001101</span>
+              <span class="waterfall-col" style="--offset: 20px;">DEFENSE/BLUE/RED/PURPLE/SOC/CERT/FORENSICS/LOG/PCAP/WIRESHARK/SNORT/SUR</span>
+              <span class="waterfall-col" style="--offset: -12px;">0xCAFE000000000034001B0700020100126A6176612F6C616E672F4F626A6563740100</span>
+              <span class="waterfall-col" style="--offset: 10px;">PROMPT.INJECTION.JAILBREAK.ADVERSARIAL.LLM.AGENT.REDTEAM.MODEL.GUARD.AI</span>
+              <span class="waterfall-col" style="--offset: -18px;">1100101010110010100101100101001101000101010000110100010101000110010100</span>
+              <span class="waterfall-col" style="--offset: 8px;">SWJTU#SECURITY#COMMUNITY#2026#RECRUITMENT#CLASSIFIED#PORTAL#INIT#ONLINE</span>
+              <span class="waterfall-col" style="--offset: -14px;">0x31C0FFE031DBB801000000CD80909090909090909090909090909090909090909090</span>
+              <span class="waterfall-col" style="--offset: 16px;">AUTONOMOUS#EXPLOIT#CYBER#RECON#PROTOCOL#VULNERABILITY#PATCH#SECURITY#99</span>
             </div>
 
             <div class="ref-top-left">
               <p class="ref-top-lead">
-                西南交通大学最神秘的社团 —— <b>网络安全协会</b>正式招新！从理论到实战，深入探秘硬核攻防世界。
+                西南交通大学最神秘的社团 —— <b>网络安全协会</b>正式招新！从理论到实战，<span style="white-space: nowrap;">深入探秘</span>硬核攻防世界。
               </p>
               <p class="ref-top-sub">
-                <b>零基础什么也不懂？没关系！</b>专业学长学姐<span style="white-space: nowrap;">手把手</span>带你入门，更有计算机基础讲座带你渡难关，筑牢交大网络安全城墙。
+                <b>零基础什么也不懂？没关系！</b>专业学长学姐<span style="white-space: nowrap;">手把手</span>带你入门，更有计算机基础讲座<span style="white-space: nowrap;">带你渡难关，</span>筑牢交大网络安全城墙。
               </p>
             </div>
             <div class="ref-top-right ref-tech-grid-block">
@@ -1236,53 +1244,53 @@
                 <span class="tech-grid-tag">08 / TRACKS</span>
               </div>
               <div class="tech-directions-list">
+                <div class="tech-dir-item" style="--dir-color: #3491fa;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg>
+                  </span>
+                  <span class="tech-dir-name">Web 渗透攻防</span>
+                </div>
                 <div class="tech-dir-item" style="--dir-color: #f53f3f;">
                   <span class="tech-dir-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="13" r="9"/><path d="M14.35 4.65 16.3 2.7a2.41 2.41 0 0 1 3.4 0l1.6 1.6a2.41 2.41 0 0 1 0 3.4l-1.95 1.95M22 2l-1.5 1.5"/></svg>
                   </span>
-                  <span class="tech-dir-name">Pwn</span>
-                </div>
-                <div class="tech-dir-item" style="--dir-color: #f9925a;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
-                  </span>
-                  <span class="tech-dir-name">Mobile</span>
-                </div>
-                <div class="tech-dir-item" style="--dir-color: #f7ba1e;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg>
-                  </span>
-                  <span class="tech-dir-name">Hardware</span>
+                  <span class="tech-dir-name">实战漏洞挖掘</span>
                 </div>
                 <div class="tech-dir-item" style="--dir-color: #27c346;">
                   <span class="tech-dir-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17-5-5 5-5M18 17l-5-5 5-5"/></svg>
                   </span>
-                  <span class="tech-dir-name">Reverse</span>
+                  <span class="tech-dir-name">软件/App逆向</span>
+                </div>
+                <div class="tech-dir-item" style="--dir-color: #f9925a;">
+                  <span class="tech-dir-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg>
+                  </span>
+                  <span class="tech-dir-name">底层二进制漏洞</span>
                 </div>
                 <div class="tech-dir-item" style="--dir-color: #14c9c9;">
                   <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4M12 18v4"/></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M12 5v13"/><path d="M12 9a4.5 4.5 0 0 0 4.5 4.5"/><path d="M12 13.5a4.5 4.5 0 0 1-4.5-4.5"/></svg>
                   </span>
-                  <span class="tech-dir-name">AI</span>
+                  <span class="tech-dir-name">AI 大模型安全</span>
                 </div>
-                <div class="tech-dir-item" style="--dir-color: #3491fa;">
+                <div class="tech-dir-item" style="--dir-color: #f7ba1e;">
                   <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 11.1 2 11.6 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
                   </span>
-                  <span class="tech-dir-name">Web</span>
+                  <span class="tech-dir-name">车联网硬件安全</span>
                 </div>
                 <div class="tech-dir-item" style="--dir-color: #722ed1;">
                   <span class="tech-dir-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
                   </span>
-                  <span class="tech-dir-name">Crypto</span>
+                  <span class="tech-dir-name">密码学与隐写</span>
                 </div>
-                <div class="tech-dir-item" style="--dir-color: #86909c;">
+                <div class="tech-dir-item" style="--dir-color: #00b42a;">
                   <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10.5 10.5a2 2 0 1 1 3 1.7c-.7.5-1.5 1.1-1.5 1.8v.5M12 17h.01"/></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
                   </span>
-                  <span class="tech-dir-name">Misc</span>
+                  <span class="tech-dir-name">云原生与攻防</span>
                 </div>
               </div>
             </div>
@@ -1295,11 +1303,11 @@
             <div class="ref-bottom-main">
               <div class="ref-bottom-left">
                 <div class="ref-bottom-header-block">
-                  <span class="ref-kicker">WHAT TO EXPECT // 社团氛围</span>
-                  <h2 class="ref-heading">超友善社团氛围 <span class="accent-slash">&</span> 黑客故事</h2>
+                  <span class="ref-kicker">NSA COMMUNITY // 极客日常</span>
+                  <h2 class="ref-heading">懂你的技术水群 <span class="accent-slash">&</span> 轻松极客圈</h2>
                 </div>
                 <p class="ref-bottom-text">
-                  不敢社交破冰？别担心，超友善社团氛围给你前所未有的体验：超多社团内外联谊聚餐与技术沙龙，把低调黑客的事迹传遍交大角落。从新手入门接触Linux，到组队征战省赛国赛，只要拥有热爱与坚持，我们一路并肩同行！
+                  告别尴尬的社交破冰。在活跃的线上群聊里，随时有人答疑解惑、分享前沿热梗与技术干货；打比赛时自由连麦攻防，平日里可潜水可冒泡。没有形式主义负担，在松弛舒适的节奏中，找到与你同频的技术搭子！
                 </p>
               </div>
 
@@ -1308,7 +1316,7 @@
                   <img src="assets/party.jpg" alt="网络安全协会成员线下聚会活动现场" class="ref-photo-img" />
                   <div class="ref-photo-caption">
                     <span>NSA COMMUNITY</span>
-                    <span>黑客联谊活动</span>
+                    <span>线下自由沙龙</span>
                   </div>
                 </div>
               </div>
