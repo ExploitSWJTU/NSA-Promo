@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0a0c0d" />
     <title>SWJTU NSA · 网络安全协会招新</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" />
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
 
       :root {
         --ink: #090b0c;
@@ -1088,7 +1090,7 @@
           </header>
 
           <div class="hero">
-            <div class="eyebrow">2026 · RECRUITMENT</div>
+            <div class="eyebrow"><span id="meta-year-eyebrow">2026</span> · RECRUITMENT</div>
             <h3>西南交通大学</h3>
             <h1>
               <span>网安<span class="outline">协会</span></span>
@@ -1120,7 +1122,7 @@
             <div class="window-head"><span>FIELD_TERMINAL</span><i></i></div>
             <div class="window-body terminal-lines">
               <span class="prompt">&gt; cat secret</span>
-              <span class="cipher">ZmxhZ3txcV9ncm91cF85ODI0OTQxNDV9</span>
+              <span class="cipher" id="term-secret-cipher">ZmxhZ3txcV9ncm91cF85ODI0OTQxNDV9</span>
               <span class="prompt">&gt; cat secret | base64 -d<span class="cursor"></span></span>
               <span class="cipher"> ??? </span>
             </div>
@@ -1139,7 +1141,7 @@
 
           <footer class="signal-footer">
             <div>Exploit SWJTU</div>
-            <div class="index"><span>Security / 2026</span><br /><b>09-14</b></div>
+            <div class="index"><span>Security / <span id="meta-year-footer">2026</span></span><br /><b>09-14</b></div>
           </footer>
         </section>
 
@@ -1161,10 +1163,10 @@
             </section>
           </div>
           <div class="intro-side">
-            <a class="qr-slot" href="https://qm.qq.com/q/6WGXZqvmHS" target="_blank" rel="noopener noreferrer" aria-label="扫码或点击加入 QQ 招新群">
+            <a class="qr-slot" data-join-link href="https://qm.qq.com/q/6WGXZqvmHS" target="_blank" rel="noopener noreferrer" aria-label="扫码或点击加入 QQ 招新群">
               <img src="assets/qq-group-qr.png" alt="QQ 招新群二维码" />
             </a>
-            <a class="qr-caption" href="https://qm.qq.com/q/6WGXZqvmHS" target="_blank" rel="noopener noreferrer"><span>SCAN TO JOIN</span><span>↗</span></a>
+            <a class="qr-caption" data-join-link href="https://qm.qq.com/q/6WGXZqvmHS" target="_blank" rel="noopener noreferrer"><span>SCAN TO JOIN</span><span>↗</span></a>
           </div>
         </section>
       </main>
@@ -1176,7 +1178,7 @@
           <header class="ref-header-manifesto">
             <div class="ref-manifesto-meta">
               <span class="manifesto-tag">01 / ABOUT NSA</span>
-              <span class="manifesto-subtag">SWJTU NSA // 2026 RECRUITMENT</span>
+              <span class="manifesto-subtag">SWJTU NSA // <span id="meta-year-manifesto">2026</span> RECRUITMENT</span>
             </div>
             <h1 class="ref-manifesto-title">
               <span>探索网络攻防边界</span>
@@ -1186,40 +1188,7 @@
 
           <div class="ref-tier-top">
             
-            <div class="char-waterfall" aria-hidden="true">
-              <span class="waterfall-col" style="--offset: -12px;">010110010110010101001110010100110100000101100011010011100101001101000001</span>
-              <span class="waterfall-col" style="--offset: 14px;">SWJTU#NSA//0x4E7A2F017BFF8902AA55CC99DDF0129B00112233445566778899AABBCC</span>
-              <span class="waterfall-col" style="--offset: -20px;">PWN.REVERSE.CRYPTO.WEB.AI.MISC.DEFENSE.ROOT.SHELL.PRIVILEGE.ESC.KERNEL.0</span>
-              <span class="waterfall-col" style="--offset: 6px;">0x7F454C4602010100000000000000000003003E0001000000B0104000000000004000</span>
-              <span class="waterfall-col" style="--offset: -16px;">EXPLOIT.SHELLCODE.ROP.OVERFLOW.CANARY.GOT.PLT.RET2LIBC.ONEGADGET.SYSTEM</span>
-              <span class="waterfall-col" style="--offset: 18px;">1101001010110101001011001011001010110101001011010011010010110101001101</span>
-              <span class="waterfall-col" style="--offset: -8px;">LINUX/KERNEL/SOCKET/TCP/IP/CIPHER/HASH/SHA256/AES/GCM/CHACHA20/POLY1305</span>
-              <span class="waterfall-col" style="--offset: 22px;">CYBER.WARFARE.ANONYMOUS.INSPECTOR.NETSEC.2026.SWJTU.CLASSIFIED.PORTAL.X</span>
-              <span class="waterfall-col" style="--offset: -14px;">0100001101010100010001100101111100110010001100000011001000110110010001</span>
-              <span class="waterfall-col" style="--offset: 10px;">EXECVE/SYS_READ/SYS_WRITE/SYS_OPEN/SYSCALL/RET/NOP/INT3/SYSEXIT/PTRACE</span>
-              <span class="waterfall-col" style="--offset: -24px;">0xDEADBEEF0xCAFEBABE0x1337C0DE0xBAADF00D414141414242424243434343444444</span>
-              <span class="waterfall-col" style="--offset: 4px;">AES.RSA.ECC.DIFFIE.HELLMAN.ZERO.KNOWLEDGE.ZK.SNARK.LWE.LATTICE.POST.QNT</span>
-              <span class="waterfall-col" style="--offset: -18px;">1010011010010110010100110100010101000011010001010100001101000101010000</span>
-              <span class="waterfall-col" style="--offset: 12px;">BUFFER.OVERFLOW.STACK.PIE.RELRO.FORTIFY.SOURCE.ASLR.NX.DEP.SEH.CFI.W^X</span>
-              <span class="waterfall-col" style="--offset: -4px;">0x31C050682F2F7368682F62696E89E3505389E1B00BCD8031DB40CD80909090909090</span>
-              <span class="waterfall-col" style="--offset: 16px;">REVERSE/DISASM/GHIDRA/IDA/GDB/RADARE2/BINARY/DECOMPILE/SYMBOLS/DWARF/ELF</span>
-              <span class="waterfall-col" style="--offset: -10px;">0101000001010111010011100101111100110010001100000011001000110110010001</span>
-              <span class="waterfall-col" style="--offset: 8px;">WEB.INJECTION.XSS.SQLI.SSRF.RCE.DESERIALIZE.JWT.OAUTH.CORS.SSTI.DIR.TRAV</span>
-              <span class="waterfall-col" style="--offset: -22px;">0x89504E470D0A1A0A0000000D4948445200000100010008060000005C72A866000000</span>
-              <span class="waterfall-col" style="--offset: 24px;">HARDWARE.IOT.FIRMWARE.UART.JTAG.SPI.BUSPIRATE.LOGIC.ANALYZE.IC.FLASH.ROM</span>
-              <span class="waterfall-col" style="--offset: -6px;">0100000101001001010111110101001101000101010000110101010101010000010101</span>
-              <span class="waterfall-col" style="--offset: 14px;">MOBILE.ANDROID.APK.SMALI.FRIDA.OBJECTION.ARM64.HOOK.INSPECTION.KEYSTORE</span>
-              <span class="waterfall-col" style="--offset: -20px;">0x504B0304140000000800000000000000000000000000000000000000000000000000</span>
-              <span class="waterfall-col" style="--offset: 6px;">CRYPTO.BLOCK.STREAM.LWE.ELLIPTIC.CURVE.ECDSA.ED25519.BLS.PRNG.NONCE.KEY</span>
-              <span class="waterfall-col" style="--offset: -16px;">0100110101001001010100110100001101011111001100100011000000110010001101</span>
-              <span class="waterfall-col" style="--offset: 20px;">DEFENSE/BLUE/RED/PURPLE/SOC/CERT/FORENSICS/LOG/PCAP/WIRESHARK/SNORT/SUR</span>
-              <span class="waterfall-col" style="--offset: -12px;">0xCAFE000000000034001B0700020100126A6176612F6C616E672F4F626A6563740100</span>
-              <span class="waterfall-col" style="--offset: 10px;">PROMPT.INJECTION.JAILBREAK.ADVERSARIAL.LLM.AGENT.REDTEAM.MODEL.GUARD.AI</span>
-              <span class="waterfall-col" style="--offset: -18px;">1100101010110010100101100101001101000101010000110100010101000110010100</span>
-              <span class="waterfall-col" style="--offset: 8px;">SWJTU#SECURITY#COMMUNITY#2026#RECRUITMENT#CLASSIFIED#PORTAL#INIT#ONLINE</span>
-              <span class="waterfall-col" style="--offset: -14px;">0x31C0FFE031DBB801000000CD80909090909090909090909090909090909090909090</span>
-              <span class="waterfall-col" style="--offset: 16px;">AUTONOMOUS#EXPLOIT#CYBER#RECON#PROTOCOL#VULNERABILITY#PATCH#SECURITY#99</span>
-            </div>
+            <div class="char-waterfall" aria-hidden="true" id="char-waterfall"></div>
 
             <div class="ref-top-left">
               <p class="ref-top-lead">
@@ -1275,55 +1244,13 @@
 
           <div class="term-output">
             <div class="term-qr-col">
-              <pre class="term-qr-pre"><span class="w">██████████████████████████████████████████████████████████████████</span>
-<span class="w">██████████████████████████████████████████████████████████████████</span>
-<span class="w">██████████████████████████████████████████████████████████████████</span>
-<span class="w">██████████████████████████████████████████████████████████████████</span>
-<span class="w">████████</span><span class="b">██████████████</span><span class="w">████████████</span><span class="b">████████</span><span class="w">██</span><span class="b">██████████████</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██████████</span><span class="b">██</span><span class="w">████████</span><span class="b">██</span><span class="w">████</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">██████████</span><span class="b">██</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██████</span><span class="b">██</span><span class="w">██████████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">████</span><span class="b">██</span><span class="w">████████</span><span class="b">██</span><span class="w">██████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">████</span><span class="b">████</span><span class="w">████████</span><span class="b">██</span><span class="w">████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██████████</span><span class="b">██</span><span class="w">██████</span><span class="b">████████</span><span class="w">██</span><span class="b">████</span><span class="w">██</span><span class="b">██</span><span class="w">██████████</span><span class="b">██</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██████████████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██████████████</span><span class="w">████████</span>
-<span class="w">████████████████████████</span><span class="b">██</span><span class="w">████</span><span class="b">████████</span><span class="w">██</span><span class="b">██</span><span class="w">████████████████████████</span>
-<span class="w">████████</span><span class="b">██████</span><span class="w">██</span><span class="b">██████████</span><span class="w">████</span><span class="b">████████████████</span><span class="w">██████</span><span class="b">██</span><span class="w">████████████</span>
-<span class="w">██████████████████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">████</span><span class="b">██</span><span class="w">██████</span><span class="b">██████</span><span class="w">██████████</span><span class="b">██</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██████</span><span class="b">██</span><span class="w">██</span><span class="b">████</span><span class="w">██████</span><span class="b">██</span><span class="w">██</span><span class="b">████</span><span class="w">██</span><span class="b">██████</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">████</span><span class="w">██████</span><span class="b">██</span><span class="w">██</span><span class="b">████████</span><span class="w">██</span><span class="b">██████</span><span class="w">████████</span><span class="b">██</span><span class="w">██████</span><span class="b">██</span><span class="w">██████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">████</span><span class="b">██</span><span class="w">██</span><span class="b">████</span><span class="w">██████</span><span class="b">██</span><span class="w">████</span><span class="b">████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">████</span><span class="w">████████</span>
-<span class="w">██████████</span><span class="b">████████</span><span class="w">████</span><span class="b">████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██████</span><span class="w">████</span><span class="b">██</span><span class="w">████</span><span class="b">██</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">████</span><span class="b">██</span><span class="w">████</span><span class="b">██</span><span class="w">████████████</span><span class="b">██</span><span class="w">████</span><span class="b">████</span><span class="w">██</span><span class="b">██</span><span class="w">████</span><span class="b">██████</span><span class="w">████████</span>
-<span class="w">██████████</span><span class="b">██</span><span class="w">██████████</span><span class="b">██████████</span><span class="w">██</span><span class="b">██</span><span class="w">████</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">████</span><span class="b">██</span><span class="w">██████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">████</span><span class="b">████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">████████</span><span class="b">██████████████</span><span class="w">██████████████</span>
-<span class="w">████████████████████████</span><span class="b">████</span><span class="w">████</span><span class="b">██████████</span><span class="w">██████</span><span class="b">████</span><span class="w">██</span><span class="b">████</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██████████████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">████</span><span class="w">██</span><span class="b">████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">████</span><span class="w">██</span><span class="b">████</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██████████</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">████</span><span class="b">████████</span><span class="w">██████</span><span class="b">████</span><span class="w">██</span><span class="b">████</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██</span><span class="w">████</span><span class="b">██</span><span class="w">████████</span><span class="b">████████████</span><span class="w">██</span><span class="b">██</span><span class="w">██████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██████████</span><span class="b">████████</span><span class="w">████████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">██</span><span class="w">██</span><span class="b">██████</span><span class="w">██</span><span class="b">████</span><span class="w">████</span><span class="b">████</span><span class="w">████</span><span class="b">██</span><span class="w">██████</span><span class="b">██</span><span class="w">████████</span>
-<span class="w">████████</span><span class="b">██</span><span class="w">██████████</span><span class="b">██</span><span class="w">██</span><span class="b">████████</span><span class="w">██</span><span class="b">████</span><span class="w">██</span><span class="b">████</span><span class="w">████</span><span class="b">████</span><span class="w">██</span><span class="b">██</span><span class="w">██████████</span>
-<span class="w">████████</span><span class="b">██████████████</span><span class="w">██</span><span class="b">████</span><span class="w">██</span><span class="b">██</span><span class="w">██████</span><span class="b">██████████</span><span class="w">██████</span><span class="b">████</span><span class="w">████████</span>
-<span class="w">██████████████████████████████████████████████████████████████████</span>
-<span class="w">██████████████████████████████████████████████████████████████████</span>
-<span class="w">██████████████████████████████████████████████████████████████████</span>
-<span class="w">██████████████████████████████████████████████████████████████████</span></pre>
+              <pre class="term-qr-pre" id="term-qr" aria-hidden="true"></pre>
               <div class="term-qr-lbl">
-                <a href="https://qm.qq.com/q/6WGXZqvmHS" target="_blank" rel="noopener noreferrer">[ SCAN TO JOIN ↗ ]</a>
+                <a data-join-link href="https://qm.qq.com/q/6WGXZqvmHS" target="_blank" rel="noopener noreferrer">[ SCAN TO JOIN ↗ ]</a>
               </div>
             </div>
             <div class="term-art-col">
-              <pre class="term-art-pre"><span class="a">███████</span><span class="t">█</span><span class="a">██</span><span class="t">███</span><span class="a">██</span><span class="t">█</span><span class="a">██████</span><span class="t">██</span><span class="a">██</span><span class="t">███████</span><span class="a">██████</span><span class="t">██</span><span class="a">██</span><span class="t">█</span><span class="a">████████</span><span class="t">█</span>
-<span class="a">██</span><span class="t">███████</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">██</span><span class="a">██</span><span class="t">███</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">██████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span>
-<span class="a">█████</span><span class="t">█████</span><span class="a">███</span><span class="t">███</span><span class="a">██████</span><span class="t">██</span><span class="a">██</span><span class="t">██████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span>
-<span class="a">██</span><span class="t">███████</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">██</span><span class="a">██</span><span class="t">██████</span><span class="a">██</span><span class="t">██████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span>
-<span class="a">███████</span><span class="t">█</span><span class="a">██</span><span class="t">███</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">██████</span><span class="a">███████</span><span class="t">██</span><span class="a">██████</span><span class="t">██</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span>
-<span class="t">█████████████████████████████████████████████████████</span>
-<span class="a">███████</span><span class="t">█</span><span class="a">██</span><span class="t">█████</span><span class="a">██</span><span class="t">██████</span><span class="a">██</span><span class="t">█</span><span class="a">████████</span><span class="t">█</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">██████████</span>
-<span class="a">██</span><span class="t">██████</span><span class="a">██</span><span class="t">█████</span><span class="a">██</span><span class="t">██████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">██████████</span>
-<span class="a">███████</span><span class="t">█</span><span class="a">██</span><span class="t">██</span><span class="a">█</span><span class="t">██</span><span class="a">██</span><span class="t">██████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">██████████</span>
-<span class="t">█████</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">█</span><span class="a">███</span><span class="t">█</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">███</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">██████████</span>
-<span class="a">███████</span><span class="t">██</span><span class="a">███</span><span class="t">█</span><span class="a">███</span><span class="t">███</span><span class="a">█████</span><span class="t">█████</span><span class="a">██</span><span class="t">█████</span><span class="a">██████</span><span class="t">███████████</span></pre>
+              <pre class="term-art-pre" id="term-art" aria-hidden="true"></pre>
             <div class="term-meta">
               <div><span>TARGET:</span><b id="term-meta-target">SWJTU_NSA_RECRUIT_2026</b></div><div><span>COMM_ID:</span><b id="term-meta-comm">QQ_GROUP: 982494145</b></div><div><span>LOCATION:</span><b id="term-meta-loc">XIPU_CAMPUS // INC</b></div>
               <div class="prompt">&gt; join_session --success <span class="term-cursor"></span></div>
@@ -1335,7 +1262,6 @@
     </div>
 
     <script>
-      
       const NSA_CONFIG = {
         meta: {
           year: "2026",
@@ -1372,6 +1298,74 @@
         ]
       };
 
+      const QR_HEX_ROWS = [
+        "0x0", "0x0", "0x0", "0x0", "0x1fc0f7f0", "0x10427410", "0x175105d0", "0x174845d0",
+        "0x174c25d0", "0x1047b410", "0x1fd557f0", "0x13d000", "0x1df3fc40", "0xb91c10",
+        "0x15458b70", "0x18bdc220", "0x12c4d6b0", "0xf35dc90", "0x12409a70", "0x83e9d20",
+        "0x14d43f80", "0x19f1b0", "0x1fd5b5b0", "0x1054f1b0", "0x17521fa0", "0x174b83c0",
+        "0x175d9910", "0x105ed9a0", "0x1fda3e30", "0x0", "0x0", "0x0", "0x0"
+      ];
+
+      const ART_HEX_ROWS = [
+        "0x1fd8df980fcdfe", "0x180d98d8186c30", "0x1f071f98186c30", "0x180d9818186c30",
+        "0x1fd8d81fcfcc30", "0x0", "0x1fd83037fb0c00", "0x18183030c30c00",
+        "0x1fd93030c30c00", "0xdbb630c30c00", "0x1fcee3e0c1f800"
+      ];
+
+      const WATERFALL_DATA = [
+        [-12, "010110010110010101001110010100110100000101100011010011100101001101000001"],
+        [14, "SWJTU#NSA//0x4E7A2F017BFF8902AA55CC99DDF0129B00112233445566778899AABBCC"],
+        [-20, "PWN.REVERSE.CRYPTO.WEB.AI.MISC.DEFENSE.ROOT.SHELL.PRIVILEGE.ESC.KERNEL.0"],
+        [6, "0x7F454C4602010100000000000000000003003E0001000000B0104000000000004000"],
+        [-16, "EXPLOIT.SHELLCODE.ROP.OVERFLOW.CANARY.GOT.PLT.RET2LIBC.ONEGADGET.SYSTEM"],
+        [18, "1101001010110101001011001011001010110101001011010011010010110101001101"],
+        [-8, "LINUX/KERNEL/SOCKET/TCP/IP/CIPHER/HASH/SHA256/AES/GCM/CHACHA20/POLY1305"],
+        [22, "CYBER.WARFARE.ANONYMOUS.INSPECTOR.NETSEC.2026.SWJTU.CLASSIFIED.PORTAL.X"],
+        [-14, "0100001101010100010001100101111100110010001100000011001000110110010001"],
+        [10, "EXECVE/SYS_READ/SYS_WRITE/SYS_OPEN/SYSCALL/RET/NOP/INT3/SYSEXIT/PTRACE"],
+        [-24, "0xDEADBEEF0xCAFEBABE0x1337C0DE0xBAADF00D414141414242424243434343444444"],
+        [4, "AES.RSA.ECC.DIFFIE.HELLMAN.ZERO.KNOWLEDGE.ZK.SNARK.LWE.LATTICE.POST.QNT"],
+        [-18, "1010011010010110010100110100010101000011010001010100001101000101010000"],
+        [12, "BUFFER.OVERFLOW.STACK.PIE.RELRO.FORTIFY.SOURCE.ASLR.NX.DEP.SEH.CFI.W^X"],
+        [-4, "0x31C050682F2F7368682F62696E89E3505389E1B00BCD8031DB40CD80909090909090"],
+        [16, "REVERSE/DISASM/GHIDRA/IDA/GDB/RADARE2/BINARY/DECOMPILE/SYMBOLS/DWARF/ELF"],
+        [-10, "0101000001010111010011100101111100110010001100000011001000110110010001"],
+        [8, "WEB.INJECTION.XSS.SQLI.SSRF.RCE.DESERIALIZE.JWT.OAUTH.CORS.SSTI.DIR.TRAV"],
+        [-22, "0x89504E470D0A1A0A0000000D4948445200000100010008060000005C72A866000000"],
+        [24, "HARDWARE.IOT.FIRMWARE.UART.JTAG.SPI.BUSPIRATE.LOGIC.ANALYZE.IC.FLASH.ROM"],
+        [-6, "0100000101001001010111110101001101000101010000110101010101010000010101"],
+        [14, "MOBILE.ANDROID.APK.SMALI.FRIDA.OBJECTION.ARM64.HOOK.INSPECTION.KEYSTORE"],
+        [-20, "0x504B0304140000000800000000000000000000000000000000000000000000000000"],
+        [6, "CRYPTO.BLOCK.STREAM.LWE.ELLIPTIC.CURVE.ECDSA.ED25519.BLS.PRNG.NONCE.KEY"],
+        [-16, "0100110101001001010100110100001101011111001100100011000000110010001101"],
+        [20, "DEFENSE/BLUE/RED/PURPLE/SOC/CERT/FORENSICS/LOG/PCAP/WIRESHARK/SNORT/SUR"],
+        [-12, "0xCAFE000000000034001B0700020100126A6176612F6C616E672F4F626A6563740100"],
+        [10, "PROMPT.INJECTION.JAILBREAK.ADVERSARIAL.LLM.AGENT.REDTEAM.MODEL.GUARD.AI"],
+        [-18, "1100101010110010100101100101001101000101010000110100010101000110010100"],
+        [8, "SWJTU#SECURITY#COMMUNITY#2026#RECRUITMENT#CLASSIFIED#PORTAL#INIT#ONLINE"],
+        [-14, "0x31C0FFE031DBB801000000CD80909090909090909090909090909090909090909090"],
+        [16, "AUTONOMOUS#EXPLOIT#CYBER#RECON#PROTOCOL#VULNERABILITY#PATCH#SECURITY#99"]
+      ];
+
+      function buildRleLine(bits, charA, charB, repCount) {
+        let line = '';
+        let curBit = bits[0];
+        let count = 1;
+        for (let i = 1; i < bits.length; i += 1) {
+          if (bits[i] === curBit) {
+            count += 1;
+          } else {
+            const cls = curBit === '0' ? charA : charB;
+            line += `<span class="${cls}">${"█".repeat(count * repCount)}</span>`;
+            curBit = bits[i];
+            count = 1;
+          }
+        }
+        const cls = curBit === '0' ? charA : charB;
+        line += `<span class="${cls}">${"█".repeat(count * repCount)}</span>`;
+        return line;
+      }
+
       (function renderFlyerContent() {
         const frontContainer = document.getElementById('front-tech-icons');
         if (frontContainer) {
@@ -1394,6 +1388,47 @@
           ).join('');
         }
 
+        // Waterfall digital rain
+        const wfContainer = document.getElementById('char-waterfall');
+        if (wfContainer) {
+          wfContainer.innerHTML = WATERFALL_DATA.map(([offset, text]) =>
+            `<span class="waterfall-col" style="--offset: ${offset}px;">${text}</span>`
+          ).join('');
+        }
+
+        // Terminal ASCII QR
+        const termQr = document.getElementById('term-qr');
+        if (termQr) {
+          termQr.innerHTML = QR_HEX_ROWS.map(h => {
+            const bits = BigInt(h).toString(2).padStart(33, '0');
+            return buildRleLine(bits, 'w', 'b', 2);
+          }).join('\n');
+        }
+
+        // Terminal ASCII Art
+        const termArt = document.getElementById('term-art');
+        if (termArt) {
+          termArt.innerHTML = ART_HEX_ROWS.map(h => {
+            const bits = BigInt(h).toString(2).padStart(53, '0');
+            return buildRleLine(bits, 't', 'a', 1);
+          }).join('\n');
+        }
+
+        // Data binding
+        const elYearEyebrow = document.getElementById('meta-year-eyebrow');
+        if (elYearEyebrow) elYearEyebrow.textContent = NSA_CONFIG.meta.year;
+        const elYearFooter = document.getElementById('meta-year-footer');
+        if (elYearFooter) elYearFooter.textContent = NSA_CONFIG.meta.year;
+        const elYearManifesto = document.getElementById('meta-year-manifesto');
+        if (elYearManifesto) elYearManifesto.textContent = NSA_CONFIG.meta.year;
+
+        const elCipher = document.getElementById('term-secret-cipher');
+        if (elCipher) elCipher.textContent = btoa(`flag{qq_group_${NSA_CONFIG.meta.qqGroup}}`);
+
+        document.querySelectorAll('[data-join-link]').forEach(a => {
+          a.href = NSA_CONFIG.meta.joinUrl;
+        });
+
         const elTarget = document.getElementById('term-meta-target');
         if (elTarget) elTarget.textContent = NSA_CONFIG.meta.target;
         const elComm = document.getElementById('term-meta-comm');
@@ -1401,19 +1436,20 @@
         const elLoc = document.getElementById('term-meta-loc');
         if (elLoc) elLoc.textContent = NSA_CONFIG.meta.location;
       })();
-    </script>
 
-    <script>
+      // Deterministic matrix rendering
       const matrix = document.querySelector('[data-matrix]');
       if (matrix) {
         const blocks = 112;
         for (let i = 0; i < blocks; i += 1) {
           const dot = document.createElement('b');
-          dot.style.opacity = (0.18 + Math.random() * 0.75).toFixed(2);
+          const pseudo = Math.abs(Math.sin(i * 12.9898 + 2026) * 43758.5453) % 1;
+          dot.style.opacity = (0.18 + pseudo * 0.75).toFixed(2);
           matrix.appendChild(dot);
         }
       }
 
+      // Side Switcher logic
       const stage = document.querySelector('.poster-stage');
       const btnFront = document.getElementById('btn-front');
       const btnBack = document.getElementById('btn-back');
