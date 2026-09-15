@@ -1,0 +1,49 @@
+name: Release 2026 Flyer PDF
+
+on:
+  push:
+    tags:
+      - 'flyer-2026-v*'
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: 'Release Tag'
+        required: true
+        default: 'v1.0.0'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Dependencies & CJK Fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils fonts-noto-cjk fonts-jetbrains-mono
+          which chromium >/dev/null 2>&1 || sudo ln -sf "$(which google-chrome || which google-chrome-stable)" /usr/local/bin/chromium
+
+      - name: Build PDF & Previews
+        run: |
+          chmod +x ./2026_recruitment/flyer_a5_duplex/build.sh
+          ./2026_recruitment/flyer_a5_duplex/build.sh
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG_NAME="${{ github.ref_name }}"
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            TAG_NAME="${{ inputs.release_tag }}"
+          fi
+
+          gh release create "$TAG_NAME" \
+            ./2026_recruitment/flyer_a5_duplex/dist/swjtu-nsa_2026_recruitment_flyer_a5-duplex.pdf \
+            ./2026_recruitment/flyer_a5_duplex/dist/preview_front.png \
+            ./2026_recruitment/flyer_a5_duplex/dist/preview_back.png \
+            --title "2026 招新传单 A5 双面印刷件 ($TAG_NAME)" \
+            --notes "西南交通大学网络安全协会 2026 招新宣传单 A5 双面矢量印刷件及 150 DPI 高清预览图。"
