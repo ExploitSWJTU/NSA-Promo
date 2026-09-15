@@ -1,0 +1,18 @@
+{
+  "name": "outputs",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check": "biome check .",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "build": "bash 2026_recruitment/flyer_a5_duplex/build.sh"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.13",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
