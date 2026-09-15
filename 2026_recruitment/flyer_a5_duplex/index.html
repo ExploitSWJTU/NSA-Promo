@@ -113,6 +113,7 @@
         height: 16px;
         background: rgba(255, 255, 255, 0.16);
         margin: 0 2px;
+        border: none;
       }
       .switcher-btn--export {
         background: rgba(0, 117, 183, 0.22);
@@ -313,7 +314,6 @@
       .hero h1 .outline {
         color: transparent;
         -webkit-text-stroke: 1px rgba(247,247,241,.84);
-        text-stroke: 1px rgba(247,247,241,.84);
       }
       .hero h1 .acid { color: var(--acid); }
 
@@ -1061,9 +1061,9 @@
       <div class="switcher-hint" title="支持空格键或左右箭头快速切换">
         <kbd>Space</kbd> 切换
       </div>
-      <div class="switcher-divider" role="separator" aria-orientation="vertical"></div>
-      <button type="button" class="switcher-btn switcher-btn--export" id="btn-export" title="调出浏览器打印面板导出 A5 矢量双面 PDF (快捷键 P 或 Ctrl+P)"><svg class="export-icon" width="13" height="13"><use href="#icon-printer"/></svg><span>导出 PDF</span></button>
-      <a class="switcher-btn switcher-btn--download" href="dist/swjtu-nsa-flyer-a5.pdf" download="swjtu-nsa-flyer-a5.pdf" title="直接下载预生成的双面 A5 PDF"><svg class="export-icon" width="13" height="13"><use href="#icon-download"/></svg><span>下载现成件</span></a>
+      <hr class="switcher-divider" aria-orientation="vertical" />
+      <button type="button" class="switcher-btn switcher-btn--export" id="btn-export" title="调出浏览器打印面板导出 A5 矢量双面 PDF (快捷键 P 或 Ctrl+P)"><svg class="export-icon" width="13" height="13" aria-hidden="true"><use href="#icon-printer"/></svg><span>导出 PDF</span></button>
+      <a class="switcher-btn switcher-btn--download" href="dist/swjtu-nsa_2026_recruitment_flyer_a5-duplex.pdf" download="swjtu-nsa_2026_recruitment_flyer_a5-duplex.pdf" title="直接下载预生成的双面 A5 PDF"><svg class="export-icon" width="13" height="13" aria-hidden="true"><use href="#icon-download"/></svg><span>下载现成件</span></a>
     </nav>
 
     <div class="poster-stage" data-side="front">
@@ -1077,13 +1077,13 @@
             <div class="identity">SWJTU <span>/ NETWORK SECURITY ASSOCIATION</span></div>
             <div class="brand-lockup">
               <img src="assets/logo-remake.svg" alt="网安协会 logo" />
-              <div class="front-tech-badge" aria-label="核心技术方向">
+              <section class="front-tech-badge" aria-label="核心技术方向">
                 <div class="front-tech-header">
                   <span>DOMAINS</span>
                   <span>08</span>
                 </div>
                 <div class="front-tech-icons" id="front-tech-icons"></div>
-              </div>
+              </section>
             </div>
           </header>
 
@@ -1119,11 +1119,10 @@
           <article class="window window--terminal" aria-label="终端字符窗口">
             <div class="window-head"><span>FIELD_TERMINAL</span><i></i></div>
             <div class="window-body terminal-lines">
-              <span class="prompt">&gt; init nsa_session</span>
-              <span>learn: web · pwn · crypto</span>
               <span class="prompt">&gt; cat secret</span>
               <span class="cipher">ZmxhZ3txcV9ncm91cF85ODI0OTQxNDV9</span>
-              <span class="prompt">&gt; <span class="cursor"></span></span>
+              <span class="prompt">&gt; cat secret | base64 -d<span class="cursor"></span></span>
+              <span class="cipher"> ??? </span>
             </div>
           </article>
 
@@ -1180,8 +1179,8 @@
               <span class="manifesto-subtag">SWJTU NSA // 2026 RECRUITMENT</span>
             </div>
             <h1 class="ref-manifesto-title">
-              <span>探索网络攻防边界，</span>
-              <span class="manifesto-accent">交大低调黑客的实战大本营。</span>
+              <span>探索网络攻防边界</span>
+              <span class="manifesto-accent">交大低调黑客的实战大本营😎</span>
             </h1>
           </header>
 
@@ -1227,7 +1226,7 @@
                 西南交通大学最神秘的社团 ——<br><b>网络安全协会</b>现已正式招新！在这里，<br>从理论到实战，深入探秘硬核攻防世界。
               </p>
               <p class="ref-top-sub">
-                <b>零基础不懂也没关系！</b>由专业学长学姐<br>手把手带你入门，更有计算机基础系列讲座<br>带你渡过难关，筑牢交大网络安全城墙。
+                <b>零基础不知如何参与？</b>由专业学长学姐<br>手把手带你入门，更有计算机基础系列讲座<br>带你渡过难关，筑牢交大网络安全城墙。
               </p>
             </div>
             <div class="ref-top-right ref-tech-grid-block">
@@ -1243,7 +1242,7 @@
             <div class="ref-bottom-main">
               <div class="ref-bottom-left">
                 <div class="ref-bottom-header-block">
-                  <span class="ref-kicker">NSA ACTIVITIES // 技术交流与培训</span>
+                  <span class="ref-kicker">NSA ACTIVITIES // 协会活动</span>
                   <h2 class="ref-heading">技术沙龙 <span class="accent-slash">&</span> 线下培训交流</h2>
                 </div>
                 <p class="ref-bottom-text">
@@ -1256,7 +1255,7 @@
                   <img src="assets/party.jpg" alt="网络安全协会成员线下聚会活动现场" class="ref-photo-img" />
                   <div class="ref-photo-caption">
                     <span>NSA ACTIVITIES</span>
-                    <span>技术沙龙与交流</span>
+                    <span>2026-05 #130</span>
                   </div>
                 </div>
               </div>
