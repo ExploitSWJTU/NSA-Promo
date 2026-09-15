@@ -492,6 +492,12 @@
       .copy-section .copy-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
       .copy-section h2 { margin: 0; font: 800 23px/1 var(--display); letter-spacing: -.05em; }
       .copy-section > p { margin: 0; font: 13.5px/1.52 var(--display); color: rgba(9,11,12,.78); text-indent: 2em; text-align: justify; }
+      .copy-section > p b,
+      .copy-section > p strong {
+        color: var(--acid);
+        font-weight: 700;
+        white-space: nowrap;
+      }
       .intro-side { display: flex; flex-direction: column; justify-content: center; gap: 7px; min-width: 0; }
       .qr-slot { aspect-ratio: 1; width: 100%; display: block; padding: 4px; border: 1px solid rgba(9,11,12,.25); background: #fff; text-decoration: none; }
       .qr-slot img { display: block; width: 100%; height: 100%; object-fit: contain; }
@@ -552,7 +558,7 @@
       }
       .ref-manifesto-title {
         margin: 2px 0 0;
-        padding-top: 7px;
+        padding-top: 20px;
         font: 900 30.75px/1.12 var(--display);
         letter-spacing: -0.035em;
         color: var(--ink);
@@ -1015,6 +1021,48 @@
     </style>
   </head>
   <body>
+    <!-- Central SVG Symbol Pool (Reusable Vector Icons) -->
+    <svg style="display: none;" aria-hidden="true" id="svg-sprite-pool">
+      <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/>
+      </symbol>
+      <symbol id="icon-bomb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="13" r="9"/><path d="M14.35 4.65 16.3 2.7a2.41 2.41 0 0 1 3.4 0l1.6 1.6a2.41 2.41 0 0 1 0 3.4l-1.95 1.95M22 2l-1.5 1.5"/>
+      </symbol>
+      <symbol id="icon-chevrons-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m11 17-5-5 5-5M18 17l-5-5 5-5"/>
+      </symbol>
+      <symbol id="icon-cpu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/>
+      </symbol>
+      <symbol id="icon-brain-front" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4M12 18v4"/>
+      </symbol>
+      <symbol id="icon-brain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M12 5v13"/><path d="M12 9a4.5 4.5 0 0 0 4.5 4.5"/><path d="M12 13.5a4.5 4.5 0 0 1-4.5-4.5"/>
+      </symbol>
+      <symbol id="icon-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 11.1 2 11.6 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/>
+      </symbol>
+      <symbol id="icon-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+      </symbol>
+      <symbol id="icon-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+      </symbol>
+      <symbol id="icon-mobile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/>
+      </symbol>
+      <symbol id="icon-file-question" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10.5 10.5a2 2 0 1 1 3 1.7c-.7.5-1.5 1.1-1.5 1.8v.5M12 17h.01"/>
+      </symbol>
+      <symbol id="icon-printer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/>
+      </symbol>
+      <symbol id="icon-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+      </symbol>
+    </svg>
     <!-- Floating Switcher Toolbar: Non-intrusive, zero impact on poster canvas -->
     <nav class="side-switcher" aria-label="宣传单控制栏">
       <button type="button" class="switcher-btn active" data-side="front" id="btn-front" aria-pressed="true">
@@ -1029,22 +1077,8 @@
         <kbd>Space</kbd> 切换
       </div>
       <div class="switcher-divider" role="separator" aria-orientation="vertical"></div>
-      <button type="button" class="switcher-btn switcher-btn--export" id="btn-export" title="调出浏览器打印面板导出 A5 矢量双面 PDF (快捷键 P 或 Ctrl+P)">
-        <svg class="export-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <polyline points="6 9 6 2 18 2 18 9"></polyline>
-          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
-          <rect x="6" y="14" width="12" height="8"></rect>
-        </svg>
-        <span>导出 PDF</span>
-      </button>
-      <a class="switcher-btn switcher-btn--download" href="dist/swjtu-nsa-flyer-a5.pdf" download="swjtu-nsa-flyer-a5.pdf" title="直接下载预生成的双面 A5 PDF">
-        <svg class="export-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-          <polyline points="7 10 12 15 17 10"></polyline>
-          <line x1="12" y1="15" x2="12" y2="3"></line>
-        </svg>
-        <span>下载现成件</span>
-      </a>
+      <button type="button" class="switcher-btn switcher-btn--export" id="btn-export" title="调出浏览器打印面板导出 A5 矢量双面 PDF (快捷键 P 或 Ctrl+P)"><svg class="export-icon" width="13" height="13"><use href="#icon-printer"/></svg><span>导出 PDF</span></button>
+      <a class="switcher-btn switcher-btn--download" href="dist/swjtu-nsa-flyer-a5.pdf" download="swjtu-nsa-flyer-a5.pdf" title="直接下载预生成的双面 A5 PDF"><svg class="export-icon" width="13" height="13"><use href="#icon-download"/></svg><span>下载现成件</span></a>
     </nav>
 
     <div class="poster-stage" data-side="front">
@@ -1063,32 +1097,7 @@
                   <span>DOMAINS</span>
                   <span>08</span>
                 </div>
-                <div class="front-tech-icons">
-                  <span class="front-tech-icon" title="Pwn">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="13" r="9"/><path d="M14.35 4.65 16.3 2.7a2.41 2.41 0 0 1 3.4 0l1.6 1.6a2.41 2.41 0 0 1 0 3.4l-1.95 1.95M22 2l-1.5 1.5"/></svg>
-                  </span>
-                  <span class="front-tech-icon" title="Mobile">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
-                  </span>
-                  <span class="front-tech-icon" title="Hardware">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg>
-                  </span>
-                  <span class="front-tech-icon" title="Reverse">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17-5-5 5-5M18 17l-5-5 5-5"/></svg>
-                  </span>
-                  <span class="front-tech-icon" title="AI">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4M12 18v4"/></svg>
-                  </span>
-                  <span class="front-tech-icon" title="Web">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg>
-                  </span>
-                  <span class="front-tech-icon" title="Crypto">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-                  </span>
-                  <span class="front-tech-icon" title="Misc">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10.5 10.5a2 2 0 1 1 3 1.7c-.7.5-1.5 1.1-1.5 1.8v.5M12 17h.01"/></svg>
-                  </span>
-                </div>
+                <div class="front-tech-icons" id="front-tech-icons"></div>
               </div>
             </div>
           </header>
@@ -1146,7 +1155,7 @@
 
           <footer class="signal-footer">
             <div>Exploit SWJTU</div>
-            <div class="index"><span>Security / 2026</span><br /><b>09—12</b></div>
+            <div class="index"><span>Security / 2026</span><br /><b>09-14</b></div>
           </footer>
         </section>
 
@@ -1157,19 +1166,19 @@
                 <h2>硬核赛道 · 实战赋能</h2>
                 <p class="intro-kicker">SECURITY EDGE / 01</p>
               </div>
-              <p>聚焦硬核攻防技术，落地实用性极强。国家级权威赛事助力综测与保研强势加分；直面全国巨大网安人才缺口，斩获一线大厂核心安全岗高薪竞争力。</p>
+              <p>聚焦硬核攻防技术，落地实用性极强。国家级权威赛事助力<b>综测与保研强势加分</b>；直面全国巨大网安人才缺口，斩获<b>一线大厂</b>核心安全岗高薪竞争力。</p>
             </section>
             <section class="copy-section">
               <div class="copy-head">
                 <h2>信网直属 · 极客社区</h2>
                 <p class="intro-kicker">NSA COMMUNITY / 02</p>
               </div>
-              <p>信网处直属组织，深度参与校园网一线运维，独享官方一手网络资讯。社团人数众多、氛围绝佳：零基础阶梯培训、高频赛事演练与超活跃水群答疑。</p>
+              <p>信网处直属组织，深度参与校园网<b>一线运维</b>，<span style="white-space: nowrap;">独享官方一手网络资讯。</span>社团人数众多、氛围绝佳：<b>零基础阶梯培训</b>、高频赛事演练与超活跃水群答疑。</p>
             </section>
           </div>
           <div class="intro-side">
             <a class="qr-slot" href="https://qm.qq.com/q/6WGXZqvmHS" target="_blank" rel="noopener noreferrer" aria-label="扫码或点击加入 QQ 招新群">
-              <img src="assets/qq-group-qr.svg" alt="QQ 招新群二维码" />
+              <img src="assets/qq-group-qr.png" alt="QQ 招新群二维码" />
             </a>
             <a class="qr-caption" href="https://qm.qq.com/q/6WGXZqvmHS" target="_blank" rel="noopener noreferrer"><span>SCAN TO JOIN</span><span>↗</span></a>
           </div>
@@ -1241,73 +1250,22 @@
             <div class="ref-top-right ref-tech-grid-block">
               <div class="tech-grid-header">
                 <span>RESEARCH DOMAINS</span>
-                <span class="tech-grid-tag">08 / TRACKS</span>
+                <span class="tech-grid-tag">08 // TRACKS</span>
               </div>
-              <div class="tech-directions-list">
-                <div class="tech-dir-item" style="--dir-color: #3491fa;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg>
-                  </span>
-                  <span class="tech-dir-name">Web 渗透攻防</span>
-                </div>
-                <div class="tech-dir-item" style="--dir-color: #f53f3f;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="13" r="9"/><path d="M14.35 4.65 16.3 2.7a2.41 2.41 0 0 1 3.4 0l1.6 1.6a2.41 2.41 0 0 1 0 3.4l-1.95 1.95M22 2l-1.5 1.5"/></svg>
-                  </span>
-                  <span class="tech-dir-name">实战漏洞挖掘</span>
-                </div>
-                <div class="tech-dir-item" style="--dir-color: #27c346;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17-5-5 5-5M18 17l-5-5 5-5"/></svg>
-                  </span>
-                  <span class="tech-dir-name">软件/App逆向</span>
-                </div>
-                <div class="tech-dir-item" style="--dir-color: #f9925a;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg>
-                  </span>
-                  <span class="tech-dir-name">底层二进制漏洞</span>
-                </div>
-                <div class="tech-dir-item" style="--dir-color: #14c9c9;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M12 5v13"/><path d="M12 9a4.5 4.5 0 0 0 4.5 4.5"/><path d="M12 13.5a4.5 4.5 0 0 1-4.5-4.5"/></svg>
-                  </span>
-                  <span class="tech-dir-name">AI 大模型安全</span>
-                </div>
-                <div class="tech-dir-item" style="--dir-color: #f7ba1e;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 11.1 2 11.6 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
-                  </span>
-                  <span class="tech-dir-name">车联网硬件安全</span>
-                </div>
-                <div class="tech-dir-item" style="--dir-color: #722ed1;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-                  </span>
-                  <span class="tech-dir-name">密码学与隐写</span>
-                </div>
-                <div class="tech-dir-item" style="--dir-color: #00b42a;">
-                  <span class="tech-dir-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
-                  </span>
-                  <span class="tech-dir-name">云原生与攻防</span>
-                </div>
+              <div class="tech-directions-list" id="tech-directions-list"></div>
               </div>
             </div>
-          </div>
-
-
 
           <!-- TIER 3: BOTTOM PHOTO & INTRO BOX (Outline, White Background) -->
           <div class="ref-tier-bottom">
             <div class="ref-bottom-main">
               <div class="ref-bottom-left">
                 <div class="ref-bottom-header-block">
-                  <span class="ref-kicker">NSA COMMUNITY // 极客日常</span>
-                  <h2 class="ref-heading">懂你的技术水群 <span class="accent-slash">&</span> 轻松极客圈</h2>
+                  <span class="ref-kicker">NSA ACTIVITIES // 技术交流与培训</span>
+                  <h2 class="ref-heading">技术沙龙 <span class="accent-slash">&</span> 线下培训交流</h2>
                 </div>
                 <p class="ref-bottom-text">
-                  告别尴尬的社交破冰。在活跃的线上群聊里，随时有人答疑解惑、分享前沿热梗与技术干货；打比赛时自由连麦攻防，平日里可潜水可冒泡。没有形式主义负担，在松弛舒适的节奏中，找到与你同频的技术搭子！
+                  协会定期举办网络安全技术沙龙与线下培训交流，围绕基础工具上手、系统攻防演练与漏洞挖掘开展专题研讨。由高年级骨干提供答疑指导，搭建纯粹务实的技术交流平台，助力成员扎实掌握核心技能，共同在实践中成长进阶。
                 </p>
               </div>
 
@@ -1315,32 +1273,15 @@
                 <div class="ref-photo-wrap">
                   <img src="assets/party.jpg" alt="网络安全协会成员线下聚会活动现场" class="ref-photo-img" />
                   <div class="ref-photo-caption">
-                    <span>NSA COMMUNITY</span>
-                    <span>线下自由沙龙</span>
+                    <span>NSA ACTIVITIES</span>
+                    <span>技术沙龙与交流</span>
                   </div>
                 </div>
               </div>
             </div>
 
             <!-- Horizontal Milestone Track -->
-            <div class="ref-milestones-track">
-              <div class="ref-ms-item is-active">
-                <span class="ref-ms-num">'01.</span>
-                <span class="ref-ms-label">入门接触 LINUX</span>
-              </div>
-              <div class="ref-ms-item">
-                <span class="ref-ms-num">'02.</span>
-                <span class="ref-ms-label">攻防技能实战</span>
-              </div>
-              <div class="ref-ms-item">
-                <span class="ref-ms-num">'03.</span>
-                <span class="ref-ms-label">征战省赛国赛</span>
-              </div>
-              <div class="ref-ms-item">
-                <span class="ref-ms-num">'04.</span>
-                <span class="ref-ms-label">成为顶尖黑客</span>
-              </div>
-            </div>
+            <div class="ref-milestones-track" id="ref-milestones-track"></div>
           </div>
         </section>
 
@@ -1405,9 +1346,7 @@
 <span class="t">█████</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">█</span><span class="a">███</span><span class="t">█</span><span class="a">██</span><span class="t">█</span><span class="a">██</span><span class="t">███</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">████</span><span class="a">██</span><span class="t">██████████</span>
 <span class="a">███████</span><span class="t">██</span><span class="a">███</span><span class="t">█</span><span class="a">███</span><span class="t">███</span><span class="a">█████</span><span class="t">█████</span><span class="a">██</span><span class="t">█████</span><span class="a">██████</span><span class="t">███████████</span></pre>
             <div class="term-meta">
-              <div><span>TARGET:</span><b>SWJTU_NSA_RECRUIT_2026</b></div>
-              <div><span>COMM_ID:</span><b>QQ_GROUP: 982494145</b></div>
-              <div><span>LOCATION:</span><b>XIPU_CAMPUS // INC</b></div>
+              <div><span>TARGET:</span><b id="term-meta-target">SWJTU_NSA_RECRUIT_2026</b></div><div><span>COMM_ID:</span><b id="term-meta-comm">QQ_GROUP: 982494145</b></div><div><span>LOCATION:</span><b id="term-meta-loc">XIPU_CAMPUS // INC</b></div>
               <div class="prompt">&gt; join_session --success <span class="term-cursor"></span></div>
             </div>
           </div>
@@ -1415,6 +1354,90 @@
       </section>
     </main>
     </div>
+
+    
+    <!-- ============================================================== -->
+    <!-- NSA FLYER DATA CONFIGURATION & SYNCHRONOUS RENDER PIPELINE     -->
+    <!-- ============================================================== -->
+    <script>
+      /**
+       * 社团招新数据配置中心 (Data-Driven Configuration)
+       * 后续届别更新只需修改此处的对象字段，即可自动映射至正反面版面。
+       */
+      const NSA_CONFIG = {
+        meta: {
+          year: "2026",
+          target: "SWJTU_NSA_RECRUIT_2026",
+          qqGroup: "982494145",
+          location: "XIPU_CAMPUS // INC",
+          joinUrl: "https://qm.qq.com/q/6WGXZqvmHS"
+        },
+        // 正面核心 CTF 技术方向徽章 (8 Domains)
+        frontDomains: [
+          { title: "Pwn", icon: "icon-bomb" },
+          { title: "Mobile", icon: "icon-mobile" },
+          { title: "Hardware", icon: "icon-cpu" },
+          { title: "Reverse", icon: "icon-chevrons-left" },
+          { title: "AI", icon: "icon-brain-front" },
+          { title: "Web", icon: "icon-globe" },
+          { title: "Crypto", icon: "icon-lock" },
+          { title: "Misc", icon: "icon-file-question" }
+        ],
+        // 背面 8 大具象化技术研究方向 (Option A 矩阵)
+        researchTracks: [
+          { id: "web", name: "Web 渗透攻防", color: "#3491fa", icon: "icon-globe" },
+          { id: "pwn", name: "实战漏洞挖掘", color: "#f53f3f", icon: "icon-bomb" },
+          { id: "reverse", name: "软件/App逆向", color: "#27c346", icon: "icon-chevrons-left" },
+          { id: "binary", name: "底层二进制漏洞", color: "#f9925a", icon: "icon-cpu" },
+          { id: "ai", name: "AI大模型安全", color: "#14c9c9", icon: "icon-brain" },
+          { id: "iot", name: "车联网硬件安全", color: "#f7ba1e", icon: "icon-car" },
+          { id: "crypto", name: "密码学与隐写", color: "#722ed1", icon: "icon-lock" },
+          { id: "cloud", name: "云原生与攻防", color: "#00b42a", icon: "icon-cloud" }
+        ],
+        // 背面极客成长进阶历程 (Milestone Steps)
+        milestones: [
+          { num: "'01.", label: "入门接触 LINUX", active: true },
+          { num: "'02.", label: "攻防技能实战", active: false },
+          { num: "'03.", label: "征战省赛国赛", active: false },
+          { num: "'04.", label: "成为顶尖黑客", active: false }
+        ]
+      };
+
+      // 同步执行 DOM 渲染（确保 Chromium 无头打印与页面直出零延迟）
+      (function renderFlyerContent() {
+        // 1. 渲染正面技术图标
+        const frontContainer = document.getElementById('front-tech-icons');
+        if (frontContainer) {
+          frontContainer.innerHTML = NSA_CONFIG.frontDomains.map(d =>
+            `<span class="front-tech-icon" title="${d.title}"><svg><use href="#${d.icon}"/></svg></span>`
+          ).join('');
+        }
+
+        // 2. 渲染背面 8 大研究方向
+        const tracksContainer = document.getElementById('tech-directions-list');
+        if (tracksContainer) {
+          tracksContainer.innerHTML = NSA_CONFIG.researchTracks.map(t =>
+            `<div class="tech-dir-item" style="--dir-color: ${t.color};"><span class="tech-dir-icon"><svg><use href="#${t.icon}"/></svg></span><span class="tech-dir-name">${t.name}</span></div>`
+          ).join('');
+        }
+
+        // 3. 渲染背面进阶阶段
+        const msContainer = document.getElementById('ref-milestones-track');
+        if (msContainer) {
+          msContainer.innerHTML = NSA_CONFIG.milestones.map(m =>
+            `<div class="ref-ms-item${m.active ? ' is-active' : ''}"><span class="ref-ms-num">${m.num}</span><span class="ref-ms-label">${m.label}</span></div>`
+          ).join('');
+        }
+
+        // 4. 同步更新终端元信息
+        const elTarget = document.getElementById('term-meta-target');
+        if (elTarget) elTarget.textContent = NSA_CONFIG.meta.target;
+        const elComm = document.getElementById('term-meta-comm');
+        if (elComm) elComm.textContent = `QQ_GROUP: ${NSA_CONFIG.meta.qqGroup}`;
+        const elLoc = document.getElementById('term-meta-loc');
+        if (elLoc) elLoc.textContent = NSA_CONFIG.meta.location;
+      })();
+    </script>
 
     <script>
       // Matrix dots animation for Front
