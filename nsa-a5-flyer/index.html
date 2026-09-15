@@ -39,7 +39,6 @@
         font-family: var(--display);
       }
 
-      /* Floating Switcher Toolbar - Non-intrusive */
       .side-switcher {
         position: fixed;
         top: 18px;
@@ -139,7 +138,6 @@
         flex-shrink: 0;
       }
 
-      /* Poster Canvas */
       .poster-stage {
         position: relative;
         display: flex;
@@ -159,13 +157,11 @@
         flex-direction: column;
       }
 
-      /* Active side toggle rules */
       .poster-stage[data-side="front"] .poster--front { display: flex; }
       .poster-stage[data-side="front"] .poster--back { display: none; }
       .poster-stage[data-side="back"] .poster--front { display: none; }
       .poster-stage[data-side="back"] .poster--back { display: flex; }
 
-      /* ==================== FRONT SIDE STYLES ==================== */
       .signal-zone {
         height: 66.6667%;
         min-height: 0;
@@ -503,8 +499,6 @@
       .qr-slot img { display: block; width: 100%; height: 100%; object-fit: contain; }
       .qr-caption { display: flex; align-items: center; justify-content: space-between; color: var(--acid); font: 8px/1 var(--mono); letter-spacing: .08em; text-decoration: none; }
 
-      /* ==================== BACK SIDE STYLES ==================== */
-      /* ==================== BACK SIDE STYLES ==================== */
       .poster--back {
         --mono: "JetBrains Mono", "JetBrainsMono Nerd Font", monospace;
         --display: "JetBrains Mono", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -517,7 +511,6 @@
         overflow: hidden;
       }
 
-      /* ==================== BACK SIDE: EXACT 3-TIER REFERENCE LAYOUT ==================== */
       .back-white-zone {
         height: 66.6667%;
         background: var(--paper);
@@ -531,7 +524,6 @@
         box-sizing: border-box;
       }
 
-      /* TOP MANIFESTO HEADER (Option A) */
       .ref-header-manifesto {
         display: flex;
         flex-direction: column;
@@ -570,7 +562,6 @@
         color: var(--acid);
       }
 
-      /* TIER 1: TOP SECTION (Lead text on left, 8 directions colored matrix on right) */
       .ref-tier-top {
         display: grid;
         grid-template-columns: 1.15fr 0.85fr;
@@ -703,7 +694,6 @@
         white-space: nowrap;
       }
 
-      /* TIER 2: BOTTOM PHOTO & INTRO BOX (White bg, Outline, Reference layout) */
       .ref-tier-bottom {
         background: #ffffff;
         border: 1px solid rgba(9, 11, 12, 0.2);
@@ -792,7 +782,6 @@
         white-space: nowrap;
       }
 
-      /* Bottom Milestone track inside Tier 3 */
       .ref-milestones-track {
         border-top: 1px solid rgba(9, 11, 12, 0.12);
         padding-top: 5px;
@@ -822,8 +811,6 @@
         font-size: 9px;
       }
 
-
-      /* Lower 1/3: Terminal Zone */
       .back-dark-zone {
         height: 33.3333%;
         background-color: var(--ink);
@@ -952,7 +939,6 @@
         animation: blink 1.8s steps(2,end) infinite;
       }
 
-      /* Responsive rules (Screen only - does not contaminate print/PDF) */
       @media screen and (max-width: 640px) {
         body { padding: 48px 0 0; background: var(--paper); }
         .side-switcher { top: 8px; padding: 3px 6px; gap: 4px; }
@@ -967,7 +953,6 @@
         .ref-milestones-track { grid-template-columns: repeat(2, 1fr); gap: 6px; }
       }
 
-      /* Print rules: duplex 2-page A5 without switch UI */
       @media print {
         @page {
           size: 148mm 210mm;
@@ -1021,7 +1006,7 @@
     </style>
   </head>
   <body>
-    <!-- Central SVG Symbol Pool (Reusable Vector Icons) -->
+    
     <svg style="display: none;" aria-hidden="true" id="svg-sprite-pool">
       <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/>
@@ -1063,7 +1048,7 @@
         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
       </symbol>
     </svg>
-    <!-- Floating Switcher Toolbar: Non-intrusive, zero impact on poster canvas -->
+    
     <nav class="side-switcher" aria-label="宣传单控制栏">
       <button type="button" class="switcher-btn active" data-side="front" id="btn-front" aria-pressed="true">
         <span class="switcher-dot"></span>
@@ -1082,7 +1067,7 @@
     </nav>
 
     <div class="poster-stage" data-side="front">
-      <!-- ==================== FRONT POSTER ==================== -->
+      
       <main class="poster poster--front" aria-label="西南交通大学网络安全协会招新宣传单 · 正面">
         <section class="signal-zone">
           <div class="frame" aria-hidden="true"></div>
@@ -1185,11 +1170,10 @@
         </section>
       </main>
 
-      <!-- ==================== BACK POSTER ==================== -->
       <main class="poster poster--back" aria-label="西南交通大学网络安全协会招新宣传单 · 背面">
-        <!-- Upper 2/3: Paper White Zone (Strictly Following Reference 3-Tier Layout) -->
+        
         <section class="back-white-zone">
-          <!-- TOP MANIFESTO HEADER (Option A) -->
+          
           <header class="ref-header-manifesto">
             <div class="ref-manifesto-meta">
               <span class="manifesto-tag">01 / ABOUT NSA</span>
@@ -1201,9 +1185,8 @@
             </h1>
           </header>
 
-          <!-- TIER 1: TOP TEXT SECTION (Lead on left, 8 colored tracks matrix on right) -->
           <div class="ref-tier-top">
-            <!-- Faint Character Waterfall (Matrix Digital Rain across entire Tier 1) -->
+            
             <div class="char-waterfall" aria-hidden="true">
               <span class="waterfall-col" style="--offset: -12px;">010110010110010101001110010100110100000101100011010011100101001101000001</span>
               <span class="waterfall-col" style="--offset: 14px;">SWJTU#NSA//0x4E7A2F017BFF8902AA55CC99DDF0129B00112233445566778899AABBCC</span>
@@ -1241,10 +1224,10 @@
 
             <div class="ref-top-left">
               <p class="ref-top-lead">
-                西南交通大学最神秘的社团 —— <b>网络安全协会</b>正式招新！从理论到实战，<span style="white-space: nowrap;">深入探秘</span>硬核攻防世界。
+                西南交通大学最神秘的社团 ——<br><b>网络安全协会</b>现已正式招新！在这里，<br>从理论到实战，深入探秘硬核攻防世界。
               </p>
               <p class="ref-top-sub">
-                <b>零基础什么也不懂？没关系！</b>专业学长学姐<span style="white-space: nowrap;">手把手</span>带你入门，更有计算机基础讲座<span style="white-space: nowrap;">带你渡难关，</span>筑牢交大网络安全城墙。
+                <b>零基础不懂也没关系！</b>由专业学长学姐<br>手把手带你入门，更有计算机基础系列讲座<br>带你渡过难关，筑牢交大网络安全城墙。
               </p>
             </div>
             <div class="ref-top-right ref-tech-grid-block">
@@ -1256,7 +1239,6 @@
               </div>
             </div>
 
-          <!-- TIER 3: BOTTOM PHOTO & INTRO BOX (Outline, White Background) -->
           <div class="ref-tier-bottom">
             <div class="ref-bottom-main">
               <div class="ref-bottom-left">
@@ -1280,12 +1262,10 @@
               </div>
             </div>
 
-            <!-- Horizontal Milestone Track -->
             <div class="ref-milestones-track" id="ref-milestones-track"></div>
           </div>
         </section>
 
-        <!-- Lower 1/3: Terminal Zone (Restored) -->
         <section class="back-dark-zone">
           <header class="term-head">
             <span>TERMINAL // BASH [SESSION_0x4E]</span>
@@ -1355,15 +1335,8 @@
     </main>
     </div>
 
-    
-    <!-- ============================================================== -->
-    <!-- NSA FLYER DATA CONFIGURATION & SYNCHRONOUS RENDER PIPELINE     -->
-    <!-- ============================================================== -->
     <script>
-      /**
-       * 社团招新数据配置中心 (Data-Driven Configuration)
-       * 后续届别更新只需修改此处的对象字段，即可自动映射至正反面版面。
-       */
+      
       const NSA_CONFIG = {
         meta: {
           year: "2026",
@@ -1372,7 +1345,6 @@
           location: "XIPU_CAMPUS // INC",
           joinUrl: "https://qm.qq.com/q/6WGXZqvmHS"
         },
-        // 正面核心 CTF 技术方向徽章 (8 Domains)
         frontDomains: [
           { title: "Pwn", icon: "icon-bomb" },
           { title: "Mobile", icon: "icon-mobile" },
@@ -1383,7 +1355,6 @@
           { title: "Crypto", icon: "icon-lock" },
           { title: "Misc", icon: "icon-file-question" }
         ],
-        // 背面 8 大具象化技术研究方向 (Option A 矩阵)
         researchTracks: [
           { id: "web", name: "Web 渗透攻防", color: "#3491fa", icon: "icon-globe" },
           { id: "pwn", name: "实战漏洞挖掘", color: "#f53f3f", icon: "icon-bomb" },
@@ -1394,7 +1365,6 @@
           { id: "crypto", name: "密码学与隐写", color: "#722ed1", icon: "icon-lock" },
           { id: "cloud", name: "云原生与攻防", color: "#00b42a", icon: "icon-cloud" }
         ],
-        // 背面极客成长进阶历程 (Milestone Steps)
         milestones: [
           { num: "'01.", label: "入门接触 LINUX", active: true },
           { num: "'02.", label: "攻防技能实战", active: false },
@@ -1403,9 +1373,7 @@
         ]
       };
 
-      // 同步执行 DOM 渲染（确保 Chromium 无头打印与页面直出零延迟）
       (function renderFlyerContent() {
-        // 1. 渲染正面技术图标
         const frontContainer = document.getElementById('front-tech-icons');
         if (frontContainer) {
           frontContainer.innerHTML = NSA_CONFIG.frontDomains.map(d =>
@@ -1413,7 +1381,6 @@
           ).join('');
         }
 
-        // 2. 渲染背面 8 大研究方向
         const tracksContainer = document.getElementById('tech-directions-list');
         if (tracksContainer) {
           tracksContainer.innerHTML = NSA_CONFIG.researchTracks.map(t =>
@@ -1421,7 +1388,6 @@
           ).join('');
         }
 
-        // 3. 渲染背面进阶阶段
         const msContainer = document.getElementById('ref-milestones-track');
         if (msContainer) {
           msContainer.innerHTML = NSA_CONFIG.milestones.map(m =>
@@ -1429,7 +1395,6 @@
           ).join('');
         }
 
-        // 4. 同步更新终端元信息
         const elTarget = document.getElementById('term-meta-target');
         if (elTarget) elTarget.textContent = NSA_CONFIG.meta.target;
         const elComm = document.getElementById('term-meta-comm');
@@ -1440,7 +1405,6 @@
     </script>
 
     <script>
-      // Matrix dots animation for Front
       const matrix = document.querySelector('[data-matrix]');
       if (matrix) {
         const blocks = 112;
@@ -1451,7 +1415,6 @@
         }
       }
 
-      // Side Switcher logic
       const stage = document.querySelector('.poster-stage');
       const btnFront = document.getElementById('btn-front');
       const btnBack = document.getElementById('btn-back');
@@ -1484,7 +1447,6 @@
         });
       }
 
-      // Keyboard navigation: Space, ArrowLeft/Right, F to toggle, P to export
       window.addEventListener('keydown', (e) => {
         if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
         const currentSide = stage.getAttribute('data-side') || 'front';
@@ -1503,7 +1465,6 @@
         }
       });
 
-      // Initialize from hash if present
       if (window.location.hash === '#back') {
         setSide('back');
       } else {
